@@ -7,7 +7,7 @@ disqus:
 facebook-comment: true 
 
 # If you are not using Google Analytics, please change 'google-ID' to an empty string
-google-ID: 'G-12L0ZXMFXD'
+google-ID: 'G-WK57XJZJKW'
 
 menu:
 - {name: 'Trang chủ',   url: 'index.html'}
