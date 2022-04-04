@@ -17,7 +17,7 @@ Công việc bắt đầu nếu đã rõ ràng các đường đi nước bướ
 
 - Trước cuộc họp
 
-Chuẩn bị nội dung: Để một cuộc họp hiệu quả trước tiên cần xác định rõ input và ouput là gì. Sau khi đã có input/output rồi thì sẽ cần phải khai triển ra các nội dung của cuộc họp ra một cách chi tiết. Cách làm đơn giản là hãy nghĩ để từ input -> Output ta cần làm gì. Nhớ ghi lại các nội dung này ra đâu đó (giấy/mindmap/Office/Notes đều được) đừng chỉ "Nghĩ trong đầu" rồi đến lúc họp kiểu gì cũng loạn lên, nhớ nhớ quên quên, hệ quả là cái nọ, thiếu cái kia.
+Chuẩn bị nội dung: Để một cuộc họp hiệu quả trước tiên cần xác định rõ input và ouput là gì. Sau khi đã có input/output rồi thì sẽ cần phải khai triển các nội dung của cuộc họp ra một cách chi tiết. Cách làm đơn giản là hãy nghĩ để từ input -> Output ta cần làm gì. Nhớ ghi lại các nội dung này ra đâu đó (giấy/mindmap/Office/Notes đều được) đừng chỉ "Nghĩ trong đầu" rồi đến lúc họp kiểu gì cũng loạn lên, nhớ nhớ quên quên, hệ quả là cái nọ, thiếu cái kia.
 
 Sau khi đã có nội dung input, output, khai triển ý chi tiết cần gửi nó cho người tham gia để họ chuẩn bị hoặc ít nhất là để họ mường tượng sẽ "phải" trả lời mình thế nào. Đừng nghĩ là họ không đọc mail của mình, yên tâm đi con người mà "phòng thân" nó là bản tính.
 
