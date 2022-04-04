@@ -33,7 +33,7 @@ Ghi chú lại các nội dung chính tốt nhất là dựa theo form các ý k
 
 - Sau cuộc họp
 
-Trong vòng nửa ngày cần tổng hợp lại nội dung dựa vào ghi chép. Gửi lại nội dung này cho các bên. Mục đích vừa là để tránh các bên quên cũng như làm bằng chứng để có gì sau này còn có cơ sỏ mà "củ hành".
+Trong vòng nửa ngày cần tổng hợp lại nội dung dựa vào ghi chép. Gửi lại nội dung này cho các bên. Mục đích vừa là để tránh các bên quên (bao gồm cả mình) cũng như làm bằng chứng để có gì sau này còn có cơ sở mà "củ hành".
 
 Hãy nhớ rằng:
 
