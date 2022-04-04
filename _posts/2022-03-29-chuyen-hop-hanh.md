@@ -21,7 +21,9 @@ Chuẩn bị nội dung: Để một cuộc họp hiệu quả trước tiên c�
 
 Sau khi đã có nội dung input, output, khai triển ý chi tiết cần gửi nó cho người tham gia để họ chuẩn bị hoặc ít nhất là để họ mường tượng sẽ "phải" trả lời mình thế nào. Đừng nghĩ là họ không đọc mail của mình, yên tâm đi con người mà "phòng thân" nó là bản tính.
 
-Hãy nhớ rằng ```Một cuộc họp không có sự chuẩn bị sẽ không thu được kết quả gì!```
+Hãy nhớ rằng: 
+
+>"Một cuộc họp không có sự chuẩn bị sẽ không thu được kết quả gì!"
 
 - Trong cuộc họp
 
@@ -33,7 +35,9 @@ Ghi chú lại các nội dung chính tốt nhất là dựa theo form các ý k
 
 Trong vòng nửa ngày cần tổng hợp lại nội dung dựa vào ghi chép. Gửi lại nội dung này cho các bên. Mục đích vừa là để tránh các bên quên cũng như làm bằng chứng để có gì sau này còn có cơ sỏ mà "củ hành".
 
-Hãy nhớ rằng ``` Cái gì rồi cũng quên thôi nếu không ghi lại```
+Hãy nhớ rằng:
+
+>Cái gì rồi cũng quên thôi nếu không ghi lại
 
 Trải nghiệm thật không bốc phét. Hy vọng mang lại ý nghĩa cho ai đọc nó,
 
