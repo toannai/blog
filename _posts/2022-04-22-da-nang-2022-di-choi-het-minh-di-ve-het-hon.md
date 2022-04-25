@@ -23,7 +23,8 @@ Vê ga mạnh chút băng qua cầu là cả chặng đường dài lái xe mon 
 
 Đèo Hải Vân cách thành phố tầm 20km. Men hết vịnh ĐN là tới rồi. Đèo không khó đi nhưng thỉnh thoảng cũng có những khúc cua tương đối khù khoằm. Đèo thích hợp cho cả những người ưa thích phượt nhẹ nhàng cả những phịch thủ thích bẻ lái ôm cua. Người ta vẫn hay chụp ảnh ở cái cây Cô đơn, tôi cũng chụp cho vui nhưng thích hơn là cái góc cua chí mạng này, nơi mà 4 năm trước cũng đứng đây chụp rồi - Hồi còn trẻ mà. Để có bức ảnh này tôi đã dừng lại giữa đường làm anh em vô cùng bức xúc vì bỏ đoàn. He he.
 
-<ảnh khúc cua>
+```ảnh khúc cua```
+
 
 Tôi sẽ không kể tiếp về cảnh đẹp trên đèo HV nhìn xuống vì nó rất đẹp rồi, ai cũng biết. Ae đi thì nên thử.
 
@@ -34,6 +35,7 @@ Nói sang Lăng Cô từ nãy giờ nhưng giờ mới kể chuyện sang Lăng 
 Tới đây tôi vẫn không quên dặn mấy ông là sẽ bị gạ mua mực nhiều đấy nhưng tuyệt đối không mua nha, mực rẻ nhưng rất lởm đó, mua phí tiền ăn chả ra sao cả. Nghe tôi đi nha.
 
 Lúc đi nghe thì phê thế lúc về cũng mệt cả team chọn đi qua hầm HV xem nó thế nào. Nói chung qua hầm tầm 10 phút thôi. Hơi nhanh nha :v Lúc về rẽ hơi sớm nên lạc cmn đường mò quanh cũng về tới nhà :v 
+
 
 #### Đây tu, dọc xuống phía Nam lên núi Thần Tài,
 
