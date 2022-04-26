@@ -4,12 +4,14 @@ title: "Đà nẵng 2022, Lúc đi hết mình lúc về hết hồn,"
 author: "remi"
 categories: nho
 tags: [Nhớ]
-image: assets/img/2022/04/14/30-intro.jpg
+image: assets/img/2022/04/22/intro.jpg
 ---
 
 Có người bạn bảo đi chơi cùng mình rồi vào đọc blog của mình viết về những chuyến đi hay phết, nhớ phết lâu lâu lại vào đọc cho vui. Thế là hôm nay lại ngồi lọ mọ viết dù viết cũng chả giỏi cho lắm. Viết về chuyến đi ĐN "Lúc đi hết mình lúc về hết hồn" vừa rồi. 
 
-Chuyến đi có plan lâu nhất từ trước tới nay đã từng tham gia - tầm 1 năm. Cũng tầm 30/4 năm ngoái cả phòng định rủ nhau đi chơi nhưng sau đó ĐN bùng dịch Covid thế là dù ae đóng tiền rồi, chỉ đợi lên máy bay thì lại bị hoãn. Hoãn cho tới tận năm nay luôn. Năm nay lúc resume định quay xe chuyển sang QN nhưng đen cái đặt muộn, QN hết luôn cả vé rồi thôi đành quay lại đi ĐN vậy - Ý trời đã định không thể chuyển. 
+Chuyến đi có plan lâu nhất từ trước tới nay đã từng tham gia - tầm 1 năm. Cũng tầm 30/4 năm ngoái cả phòng định rủ nhau đi chơi nhưng sau đó ĐN bùng dịch Covid thế là dù ae đóng tiền rồi, chỉ đợi lên máy bay thì lại bị hoãn. Hoãn cho tới tận năm nay luôn. Năm nay lúc resume định quay xe chuyển sang QN nhưng đen cái đặt muộn, QN hết luôn cả vé rồi thôi đành quay lại đi ĐN vậy - Ý trời đã định không thể chuyển. Bay thôi.
+
+![may bay]( {{site.url}}/assets/img/2022/04/22/baythoi.JPG)
 
 Nói về ĐN nghe thật là quen vì ai chắc cũng đi nhiều lần. Cũng sẽ không kể chuyện ăn uống vui chơi vì quá quen thuộc. Kể về những thứ khang khác chút.
 
