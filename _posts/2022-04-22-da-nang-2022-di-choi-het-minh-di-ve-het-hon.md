@@ -32,7 +32,7 @@ Tôi sẽ không kể tiếp về cảnh đẹp trên đèo HV nhìn xuống vì
 
 Vượt qua HV chút là tới luôn Lăng Cô. Nhưng khoan hãy sang Lăng cô đã, ngay chân đèo bên Huế có cái đầm Lập An. Mọi người đi sang Lăng cô hay bỏ qua đây nhưng nghe tôi hãy ghé vô đây nghỉ chân ăn chưa, nện Hải Sản vừa rẻ vừa tươi ngon. Sẽ là trải nghiệm thú vị.
 
-![lap an]( {{site.url}}/assets/img/2022/04/22/lapan.JGP)
+![lap an]( {{site.url}}/assets/img/2022/04/22/lapan.JPG)
 
 Nói sang Lăng Cô từ nãy giờ nhưng giờ mới kể chuyện sang Lăng Cô. Lăng Cô tên nghe cũng quen quen kiểu nối tiếng nhưng thực tế nằm gần Đà Nẵng nên dù rất đẹp nhưng nghịch lý là lại vô cùng vắng người. Tắm ở Lăng Cô làm cho người ta cảm thấy mình như khách VIP, một mình bao cả bãi biển dài vô tận. Làm quả dừa nằm phơi nắng phơi gió nghĩ sự đời xong rồi nhảy xuống tắm thì phê đừng hỏi. 
 
@@ -40,7 +40,7 @@ Nói sang Lăng Cô từ nãy giờ nhưng giờ mới kể chuyện sang Lăng 
 
 ![lang co bay]( {{site.url}}/assets/img/2022/04/22/beach.JPG)
 
-```Tới đây tôi vẫn không quên dặn mấy ông là sẽ bị gạ mua mực nhiều đấy nhưng tuyệt đối không mua nha, mực rẻ nhưng rất lởm đó, mua phí tiền ăn chả ra sao cả. Nghe tôi đi nha.```
+>Tới đây tôi vẫn không quên dặn mấy ông là sẽ bị gạ mua mực nhiều đấy nhưng tuyệt đối không mua nha, mực rẻ nhưng rất lởm đó, mua phí tiền ăn chả ra sao cả. Nghe tôi đi nha
 
 Lúc đi nghe thì phê thế lúc về cũng mệt cả team chọn đi qua hầm HV xem nó thế nào. Nói chung qua hầm tầm 10 phút thôi. Hơi nhanh nha :v Lúc về rẽ hơi sớm nên lạc cmn đường mò quanh cũng về tới nhà :v 
 
