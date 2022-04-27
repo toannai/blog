@@ -21,6 +21,9 @@ Ban đầu ae định thuê xe ô tô để di chuyển nhưng sau nghĩ lại c
 
 Đây là chặng đường thú vị, thú vị vì cả cung đường và điểm đến. Cung đường đã đi nhiều lần nhưng lần này có chút khác biệt là băng qua cầu Thuận Phước - Cây cầu cao nhất Đà Nẵng. Khi mà đi lên tới nơi gió thổi to tới mức nếu mặc áo quên cài khóa, áo nó như cái dù chỉ chực cho ae đáp xuống biển. Cầu rất cao, dưới cầu là những bãi cát dài ven biển nhấp nhô trắng muốt, xa xa chỉ có nước biển một màu xanh ngọc bích. Ông bạn đi cùng ngồi sau bảo nhìn "Như tranh vậy", rất là phê, rồi ae hú lên ầm ầm :v. Rất tiếc không thể dừng xe chút xíu thếch ơ phô tô để show hàng vì mình ae phi nhanh quá. Chân cầu chỉ đi chút chút thôi là gặp là hàng thông chắn sóng rì dào... Anw, nếu đi ĐN mà không tới đây thì e là hơi phí.
 
+![cau thuan phuoc]( {{site.url}}/assets/img/2022/04/22/thuanphuoc.JPG)
+
+
 Vê ga mạnh chút băng qua cầu là cả chặng đường dài lái xe mon men theo bờ biển vịnh ĐN mát lạnh rì rào sóng vỗ, hay là những rặng thông ven biển siêu đẹp như phim hàn quốc. Nói gì thì nói chứ mình rất là thích chạy xe máy ven biển miền Trung kiểu như vậy. Gió thì mát lạnh dù nhiều khi trời nắng chang chang, không khí lẫn lẫn chút muối làm mồ hôi lâu lâu rơi vào miệng, liếm liếm mặn chát.  
 
 Đèo Hải Vân cách thành phố tầm 20km. Men hết vịnh ĐN là tới rồi. Đèo không khó đi nhưng thỉnh thoảng cũng có những khúc cua tương đối khù khoằm. Đèo thích hợp cho cả những người ưa thích phượt nhẹ nhàng, cả những phịch thủ thích bẻ lái ôm cua. Người ta vẫn hay chụp ảnh ở cái cây Cô đơn, tôi cũng chụp cho vui nhưng thích hơn là cái góc cua chí mạng này, nơi mà 4 năm trước cũng đứng đây chụp rồi - Hồi còn trẻ mà. Để có bức ảnh này tôi đã dừng lại giữa đường làm anh em vô cùng bức xúc vì bỏ đoàn chửi sml. He he.
