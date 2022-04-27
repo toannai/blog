@@ -38,25 +38,40 @@ Nói sang Lăng Cô từ nãy giờ nhưng giờ mới kể chuyện sang Lăng 
 
 ![lang co bay]( {{site.url}}/assets/img/2022/04/22/langco.jpg)
 
-![lang co bay]( {{site.url}}/assets/img/2022/04/22/beach.JPG)
+![beach]( {{site.url}}/assets/img/2022/04/22/beach.JPG)
 
 >Tới đây tôi vẫn không quên dặn mấy ông là sẽ bị gạ mua mực nhiều đấy nhưng tuyệt đối không mua nha, mực rẻ nhưng rất lởm đó, mua phí tiền ăn chả ra sao cả. Nghe tôi đi nha
 
 Lúc đi nghe thì phê thế lúc về cũng mệt cả team chọn đi qua hầm HV xem nó thế nào. Nói chung qua hầm tầm 10 phút thôi. Hơi nhanh nha :v Lúc về rẽ hơi sớm nên lạc cmn đường mò quanh cũng về tới nhà :v 
 
+#### Camping trên bãi biển,
+
+Sau pha lạc đường mò về nhà trời tối nhem. Ae V-xanh ĐN sắp xếp cho chỗ camping và nhậu trên bãi biển nhỏ ở chân Ngũ Hành Sơn - Điểm này chắc ít người biết nên cũng khá vắng. Nhậu thì đã vui rồi, nhậu trên bãi biển chắc chắn còn vui hơn. Tôi sẽ không kể nhiều về việc nhậu nhẹt không lần sau vợ lại không cho đi :v Tin tôi đi, đoàn nào tới ĐN thì đây là địa điểm lý tưởng để nhậu đêm :) 
+
+![camping1]( {{site.url}}/assets/img/2022/04/22/camp1.jpg)
+
+![camping2]( {{site.url}}/assets/img/2022/04/22/camp2.jpg)
+
+![camping3]( {{site.url}}/assets/img/2022/04/22/camp2.jpg)
 
 #### Đây tu, dọc xuống phía Nam lên núi Thần Tài,
 
-Đi ĐN người ta hay đi Bana Hill, nghe khá nổi tiếng nhưng đi ĐN nhiều lần mà thú thật chưa một lần qua Bana Hill. Hội An thì hơi buồn, thế là cả team chọn đi núi Thần Tài. 
+Đi ĐN người ta hay đi Bana Hill, nghe khá nổi tiếng nhưng đi ĐN nhiều lần mà thú thật chưa một lần qua Bana Hill. Hội An thì hơi buồn, thế là cả team chốt đi núi Thần Tài. 
+
+![than tai]( {{site.url}}/assets/img/2022/04/22/thantai.JPG)
+
+Lật bài trước, ở núi thần Tài chả có cái gì ngoài quẩn quanh quẩn các loại tắm. Có công viên nước trượt máng, chui ống, tắm bikini các kiểu như các công viên nước khác. P/s nếu đoàn có trẻ con mà đi vào mùa hè chắc chỉ có bọn hắn là tích. Riêng với mình đoạn này cũng chưa thấy gì thú vị lắm. Sau đó chuyển qua tắm nước khoáng nóng, khoáng lạnh, kế tới là tắm bùn khoáng. Tắm xong mệt đứt cả hơi. Hài nhất là tắm onsen ~ tắm trần không đồ :v. Ở nhà ngày nào cũng tắm trần nhưng là trong phòng tắm 1 mình, tới đây cùng lúc 10 ae tắm trần chung thì cũng là hơi oằn, mãi mới dám chút bỏ xiêm y vòng xuống bể. Dù gì cũng là trải nghiệm thủ vị. 
+
+Sẽ không kể tiếp về đoạn làm gì ở núi Thần tài vì cũng chưa thấy có gì quá đặc biệt cho lắm. Đoạn thấy đặc biệt hơn là chặng đường đi tới đó. Núi thần tài nằm huyện Hòa Vang - tạm gọi là miền núi ở Đà Nẵng, cách thành phố tầm 30km. Trong suốt chặng đường tới đây 9 ae với 5 chiếc xe máy rong ruổi. Vượt qua đoạn quốc lộ mới cứng xộc mùi nhựa mới rộng thênh thang là đi vào một cung đường liên huyện hun hút siêu hẹp. Dần dần bỏ lại sau ồn ào khói bụi, người tham gia cứ như đi vào thế giới khác vậy. Là những cung đường không thẳng lách dưới lùm cây cũng vòng vèo uốn khúc, lúc lên lúc xuống, lượn quanh những quả đồi nhỏ hay là những cánh rừng mới trồng tán còn thấp. Là những con suối bên đường trơ đá, đất lở hai bên - chắc hẳn mùa mưa vừa qua đã hứng những đợt lũ quét khủng khiếp. Có đoạn thật êm đềm một bên là làng môt bên là con sông nước trong veo núp sau bụi tre rì rào - Nhớ tuổi thơ thật... Đoạn này vẫn  là xế nên chả chụp được con ảnh nào ngon nghẻ để up lên đây. Chỉ biết thở bằng lời :) 
+
+Nhiều thì không nhiều đâu cũng chỉ tầm 2 ngày thôi. Đi chơi biển mà lại có núi, có suối, có sông đủ cả, thấy thật hay. Ae đi ĐN nên đi cung đường này.
+
+#### Đi về hết hồn,
+
+Sau gần 2 ngày rong ruổi trên xe máy vẫn còn một cuộc hẹn tối. Không muốn kể nhiều về cuộc hẹn này =)) chỉ biết tí thì không về được HN. Cũng may có các a/e đi cùng chăm sóc tận răng không thì cũng khóc :'( Cảm ơn các a/e rất nhiều.
 
 
-Nói trước núi thần Tài chả có cái gì. Quanh quẩn các loại tắm. Có công viên nước trượt máng, chui ống, tắm bikini các kiểu như các công viên nước khác. Sau đó chuyển qua tắm nước nóng nước lạnh rồi chuyển qua tắm bùn khoáng. Mạnh hơn chút là tắm onsen ~ tắm trần không đồ :v. 
-
-Đáng kể hơn chuyện làm gì là chặng đường đi tới núi Thần Tài. 
-
-
-
-Mỗi chuyến đi cần 1 leadteam. Leadteam team lần này là Mr Log. Thanks Mr.Log vì đã bố trí cho ae rất chu đáo từ đầu tới mông. Ae chỉ việc xách balo lên máy bay. 
+Mỗi chuyến đi cần 1 leadteam. Leadteam team lần này là Mr Log. Thanks Mr.Log vì đã bố trí cho ae rất chu đáo từ đầu tới mông. Ae chỉ việc xách balo lên máy bay. Hẹn gặp ở những chuyến đi tới. 
 
 
 
