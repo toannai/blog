@@ -49,7 +49,7 @@ Lúc đi nghe thì phê thế lúc về cũng mệt cả team chọn đi qua h�
 
 #### Camping trên bãi biển,
 
-Sau pha lạc đường mò về nhà trời tối nhem. Ae V-xanh ĐN sắp xếp cho chỗ camping và nhậu trên bãi biển nhỏ ở chân Ngũ Hành Sơn - Điểm này chắc ít người biết nên cũng khá vắng. Nhậu thì đã vui rồi, nhậu trên bãi biển chắc chắn còn vui hơn. Tôi sẽ không kể nhiều về việc nhậu nhẹt không lần sau vợ lại không cho đi :v Tin tôi đi, đoàn nào tới ĐN thì đây là địa điểm lý tưởng để nhậu đêm :) 
+Sau pha lạc đường mò về nhà trời tối nhem. Ae V-xanh ĐN (Gửi lời cảm ơn chân thành tới sự chu đáo nhiệt tình của ae) sắp xếp cho chỗ camping và nhậu trên bãi biển nhỏ ở chân Ngũ Hành Sơn - Điểm này chắc ít người biết nên cũng khá vắng. Nhậu thì đã vui rồi, nhậu trên bãi biển chắc chắn còn vui hơn. Tôi sẽ không kể nhiều về việc nhậu nhẹt không lần sau vợ lại không cho đi :v Tin tôi đi, đoàn nào tới ĐN thì đây là địa điểm lý tưởng để nhậu đêm :) 
 
 ![camping1]( {{site.url}}/assets/img/2022/04/22/camp1.jpg)
 
