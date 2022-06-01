@@ -4,7 +4,7 @@ title: "Strace - tool hay để khoanh vùng troubleshoot bottleneck,"
 author: "remi"
 categories: job
 tags: [Việc]
-image: assets/img/2019/05/25/190509_strace_intro.png
+image: assets/img/2019/05/25/strace-featured.png
 ---
 
 Chiều nay có 1 case khá thú vị, một lệnh apt-get dùng qua proxy thời gian đầu lúc khởi chạy wait rất lâu (2 – 3 phút), dấu hiệu thực tế cho thấy nguyên nhân không phải do mạng vì ngay sau 2 – 3 phút ban đầu đó việc down gói, un-deb, cài gói diễn ra rất nhanh. Thật khó lý giải tại sao. Lát sau nhờ tool strace giúp khoanh vùng được vấn đề . Tối về rảnh dang ngó qua thấy kha khá điều hay ho về cái tool này và note tại đây.
