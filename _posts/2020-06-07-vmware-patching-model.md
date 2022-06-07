@@ -4,7 +4,7 @@ title: "Một số thuật ngữ liên quan tới patching trong các sản ph�
 author: "remi"
 categories: job
 tags: [Việc]
-image: assets/img/2019/06/07/intro_update.jpg
+image: assets/img/2022/06/07/intro_update.jpg
 ---
 
 Patching/Update/Upgrade vốn đã là việc đau đầu, thỉnh thoảng còn đau đầu hơn vì liên quan tới chuyện này các ông lớn ông bé còn nghĩ ra đủ thứ khái niệm liên quan na ná nhau rất dễ nhầm lẫn nữa. Buổi ngày hôm nay sẽ là một bài tổng kết về các khái niệm có thể gặp liên quan tới vấn đề này của một ông khá nổi là VMWare - Ông chùm của ảo hóa.
@@ -23,7 +23,7 @@ Có 2 schemes phổ biến
 
 Semantic versioning là một **Scheme** được sử dụng rộng rãi. Cấu trúc chung quy ước gồm các thành phần chính:
 
-![Sematic version]( {{site.url}}/assets/img/2019/06/07/SemanticVersioning.png)
+![Sematic version]( {{site.url}}/assets/img/2022/06/07/SemanticVersioning.png)
 
 Ngoài ra trong nhiều trường hợp ta còn thấy nhà phát triển thêm 1 số kí hiệu alpha" (a), "beta" (b), or "release candidate" (rc) gán thêm vào phiên bản phần mềm. Dễ hình dung lấy một ví dụ cho dễ hiểu ý nghĩa của các kí hiệu này: 0.5, 0.6, 0.7, 0.8, 0.9 → 1.0b1, 1.0b2 (with some fixes), 1.0b3 (with more fixes) → 1.0rc1 (which, if it is stable enough), 1.0rc2 (if more bugs are found) → 1.0.
 
