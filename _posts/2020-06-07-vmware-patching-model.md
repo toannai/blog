@@ -4,7 +4,7 @@ title: "Một số thuật ngữ liên quan tới patching trong các sản ph�
 author: "remi"
 categories: job
 tags: [Việc]
-image: assets/img/2019/05/31/wakeupintro.png
+image: assets/img/2019/06/07/intro_update.jpg
 ---
 
 Patching/Update/Upgrade vốn đã là việc đau đầu, thỉnh thoảng còn đau đầu hơn vì liên quan tới chuyện này các ông lớn ông bé còn nghĩ ra đủ thứ khái niệm liên quan na ná nhau rất dễ nhầm lẫn nữa. Buổi ngày hôm nay sẽ là một bài tổng kết về các khái niệm có thể gặp liên quan tới vấn đề này của một ông khá nổi là VMWare - Ông chùm của ảo hóa.
@@ -42,17 +42,17 @@ major.minor[.maintenance[.build]] (example: 1.4.3.5249)
 
 ## Một số khái niệm cần phải biết
 
-- OEMs là VMware partners. Eg: Dell, HPE, VMware Cloud on AWS
-- Third-party software providers: là các providers cung cấp I/O filters, device drivers, CIM modules, và **so on**
-- VIB(vSphere Installation Bundle): là một dạng file cài đặt trong vmware. Mỗi VIB sẽ bao gồm các thành phần sau:
-    + A file archive: ontains the files that make up the VIB.
-    + An XML descriptor file (Meta data): dependencies, any compatibility issues, and whether the VIB can be installed without rebooting, information about bulletins.
-    + A signature file: the level of trust associated with the VIB
+* OEMs là VMware partners. Eg: Dell, HPE, VMware Cloud on AWS
+* Third-party software providers: là các providers cung cấp I/O filters, device drivers, CIM modules, và **so on**
+* VIB(vSphere Installation Bundle): là một dạng file cài đặt trong vmware. Mỗi VIB sẽ bao gồm các thành phần sau:
+    - A file archive: ontains the files that make up the VIB.
+    - An XML descriptor file (Meta data): dependencies, any compatibility issues, and whether the VIB can be installed without rebooting, information about bulletins.
+    - A signature file: the level of trust associated with the VIB
     
-- Standalone VIB: là VIB độc lập không thuộc/depend một thành phần logic nào
-- Bulletins: Một nhóm một hoặc một vài vài VIB. Bulletins thì được định nghĩa trong meta data của VIB. Có 2 loại Bulletins là patch và Roll-up:
-    + Patch: Là một update nhỏ của phần mềm để fix bug hoặc cải thiện phần mềm hiện tại. Một patch có thể bao gồm một hoặc một vài VIB
-    + Roll-up Bulletin: Là một collectoin các patches được nhóm lại với nhau để tạo điều kiện thuận lợi cho tải xuống vài triển khai
-    + Extension: Là một bulletin định nghĩa một nhóm MIB thêm thành phần cho ESXi host. Extension thường do bên thứ ba phát triển
+* Standalone VIB: là VIB độc lập không thuộc/depend một thành phần logic nào
+* Bulletins: Một nhóm một hoặc một vài vài VIB. Bulletins thì được định nghĩa trong meta data của VIB. Có 2 loại Bulletins là patch và Roll-up:
+    - Patch: Là một update nhỏ của phần mềm để fix bug hoặc cải thiện phần mềm hiện tại. Một patch có thể bao gồm một hoặc một vài VIB
+    - Roll-up Bulletin: Là một collectoin các patches được nhóm lại với nhau để tạo điều kiện thuận lợi cho tải xuống vài triển khai
+    - Extension: Là một bulletin định nghĩa một nhóm MIB thêm thành phần cho ESXi host. Extension thường do bên thứ ba phát triển
 
 
