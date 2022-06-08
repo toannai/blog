@@ -16,6 +16,7 @@ Trước khi bắt đầu nói sơ qua về một cái chủ để liên quan g�
 Nói tới đây cần biết khái niệm "Scheme" - Lược đồ đánh số phiên bản tạo ra để theo dõi các phiên bản khác nhau của một phần mềm.
 
 Có 2 schemes phổ biến:
+
 * Internal version number: Tăng nhiều lần trong 1 ngày hay revision control number
 * Release version: Ít thay đổi hơn, được biết đến nhiều là semantic versioning hay project code name.
 
@@ -36,6 +37,8 @@ major.minor[.maintenance[.build]] (example: 1.4.3.5249)
 
 Đánh giá về risk của sự thay đổi version ảnh hưởng lên hệ thống có thể tạm xếp loại ***major number (high risk) => minor number (medium risk) => patch number (lowest risk)***
 
+Upgrade làm thay đổi major, update thay đổi minor. Path dùng để fix bug.
+
 # VMware versioning scheme
 
 >Cũng sử dụng Semantic versioning 
@@ -54,5 +57,34 @@ major.minor[.maintenance[.build]] (example: 1.4.3.5249)
     - Patch: Là một update nhỏ của phần mềm để fix bug hoặc cải thiện phần mềm hiện tại. Một patch có thể bao gồm một hoặc một vài VIB
     - Roll-up Bulletin: Là một collectoin các patches được nhóm lại với nhau để tạo điều kiện thuận lợi cho tải xuống vài triển khai
     - Extension: Là một bulletin định nghĩa một nhóm MIB thêm thành phần cho ESXi host. Extension thường do bên thứ ba phát triển
+
+## Upgrade, update vmware 
+
+>Hãy nhớ: Upgrade làm thay đổi major, update thay đổi minor, Vá lỗi/patch - làm thay đổi patch (hơi lằng nhắng)
+
+
+## Upgrade/Update path
+
+Vậy làm sao để upgrade/path VMware? VMware cung cấp một matrix để ae có thể kiểm tra tính tương thích, tù đây có thể tính toán **Path** để upgrade giữa 2 phiên bản bất kỳ.
+
+[https://interopmatrix.vmware.com/#/Upgrade?productId=2](https://interopmatrix.vmware.com/#/Upgrade?productId=2)
+
+Lấy ví dụ: muốn upgrade vcenter từ 5.5 → 6.7.0. Soi bảng thì thấy Incompatible (Nghĩa là ko lên trực tiếp được) => Tìm đường ngắn nhất 5.5 → 6.0 → 6.7.0
+
+Về cách thức Upgrade/Update ta có thể xem xét 2 cách sau:
+* Sử dụng Update Manager => Cái này chỉ áp dụng cho phiên bản gần đây (Tầm Esxi/Vcenter 6 trở lên).
+* Sử dụng đĩa/iso: Test ngon với cả các phiên bản mới và cũ (Tầm Esxi/Vcenter 3,4,5)
+
+Lúc này cần in 2 đĩa. Một đĩa 6.0 một đĩa 6.7.0 sau đó insert vào và upgrade thôi.
+
+### Vá lỗi
+
+Vá lỗi thường chỉ làm thay đổi phần "Patch" trong version và dễ thực hiện hơn do chỉ cần cài patch. 
+
+Có thể tìm các bản patch tại VMware Security Advisories: [https://www.vmware.com/security/advisories.html](https://www.vmware.com/security/advisories.html)
+
+Cách thức: Thường là sử dụng các file đóng gói .vib để cài trên server qua kênh ssh hoặc cũng có thể sử dụng Update manager.
+
+OK, Hôm nay tạm dừng ở đây, có gì thay đổi sẽ cập nhật tiếp,
 
 
