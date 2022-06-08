@@ -62,7 +62,7 @@ Upgrade làm thay đổi major, update thay đổi minor. Path dùng để fix b
 >Hãy nhớ: Upgrade làm thay đổi major, update thay đổi minor, Vá lỗi/patch - làm thay đổi patch (hơi lằng nhắng)
 
 
-## Upgrade/Update path
+### Upgrade/Update path
 
 Vậy làm sao để upgrade/path VMware? VMware cung cấp một matrix để ae có thể kiểm tra tính tương thích, tù đây có thể tính toán **Path** để upgrade giữa 2 phiên bản bất kỳ.
 
