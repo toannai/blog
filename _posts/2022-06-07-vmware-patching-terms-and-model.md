@@ -74,7 +74,7 @@ Về cách thức Upgrade/Update ta có thể xem xét 2 cách sau:
 * Sử dụng Update Manager => Cái này chỉ áp dụng cho phiên bản gần đây (Tầm Esxi/Vcenter 6 trở lên).
 * Sử dụng đĩa/iso: Test ngon với cả các phiên bản mới và cũ (Tầm Esxi/Vcenter 3,4,5)
 
-Lúc này cần in 2 đĩa. Một đĩa 6.0 một đĩa 6.7.0 sau đó insert vào và upgrade thôi.
+Để đơn giản (Vì tôi lười cài Update manager) tôi dùng đĩa burn từ ISO. Lúc này cần in 2 đĩa. Một đĩa 6.0 một đĩa 6.7.0 sau đó insert vào và upgrade thôi.
 
 ### Vá lỗi
 
