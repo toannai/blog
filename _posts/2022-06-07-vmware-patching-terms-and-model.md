@@ -55,7 +55,7 @@ Upgrade làm thay đổi major, update thay đổi minor. Path dùng để fix b
 * Bulletins: Một nhóm một hoặc một vài vài VIB. Bulletins thì được định nghĩa trong meta data của VIB. Có 2 loại Bulletins là patch và Roll-up:
     - Patch: Là một update nhỏ của phần mềm để fix bug hoặc cải thiện phần mềm hiện tại. Một patch có thể bao gồm một hoặc một vài VIB
     - Roll-up Bulletin: Là một collectoin các patches được nhóm lại với nhau để tạo điều kiện thuận lợi cho tải xuống vài triển khai
-    - Extension: Là một bulletin định nghĩa một nhóm MIB thêm thành phần cho ESXi host. Extension thường do bên thứ ba phát triển
+    - Extension: Là một bulletin định nghĩa một nhóm VIB thêm thành phần cho ESXi host. Extension thường do bên thứ ba phát triển
 
 ## Upgrade, update vmware 
 
@@ -80,10 +80,14 @@ Về cách thức Upgrade/Update ta có thể xem xét 2 cách sau:
 
 Vá lỗi thường chỉ làm thay đổi phần "Patch" trong version và dễ thực hiện hơn do chỉ cần cài patch. 
 
-Có thể tìm các bản patch tại VMware Security Advisories: [https://www.vmware.com/security/advisories.html](https://www.vmware.com/security/advisories.html)
+Download path tại: [https://customerconnect.vmware.com/patch](https://customerconnect.vmware.com/patch)
 
-Cách thức: Thường là sử dụng các file đóng gói .vib để cài trên server qua kênh ssh hoặc cũng có thể sử dụng Update manager.
+Note: Với các lỗi security có thể tra cứu thông tin tại VMware Security Advisories: [https://www.vmware.com/security/advisories.html](https://www.vmware.com/security/advisories.html)
+
+Cách thức: Có thể sử dụng file đóng gói zip bao gồm các file VIB để cài trên server qua kênh ssh theo hướng dẫn [tại đây](https://www.sbarjatiya.com/notes_wiki/index.php/Install_ESXi_patch_via_depot_zip_file) hoặc sử dụng Update manager.
 
 OK, Hôm nay tôi tạm dừng ở đây, có gì hay ho sẽ cập nhật tiếp,
 
+# Tham khảo
 
+* https://docs.vmware.com/en/VMware-vSphere/7.0/com.vmware.vsphere-lifecycle-manager.doc/GUID-32BD1915-01BF-4C10-A6C3-655B35F95F24.html
