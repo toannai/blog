@@ -11,17 +11,17 @@ Trước đây sếp cũ bảo với mình rằng giao việc cho mình làm k�
 
 ### Yêu cầu
 
-[x] Công cụ phải có khả năng tổ chức các task: 
-	* Có khả năng list toàn bộ các task (Dĩ nhiên rồi) 
-	* Tổ chức các task thành từng nhóm/cụm công việc nhỏ, từng project, tagging các task
+* Công cụ phải có khả năng tổ chức các task: 
+	- Có khả năng list toàn bộ các task (Dĩ nhiên rồi) 
+	- Tổ chức các task thành từng nhóm/cụm công việc nhỏ, từng project, tagging các task
 
-[x] Shedule task 
-	* Thiết lập thứ tự ưu tiên cho các task
-	* Có thiết lập start time - endtime để khi mình quên tới gần Endtime thì gửi mail nhắc mình.
+* Shedule task 
+	- Thiết lập thứ tự ưu tiên cho các task
+	- Có thiết lập start time - endtime để khi mình quên tới gần Endtime thì gửi mail nhắc mình.
 
-[x] Yêu cầu khác
-	* Cloud base support Multi device (ít nhất là PC, Mobile) để ở đâu cũng xem được
-	* **FREE!!!** thì rất tốt....
+* Yêu cầu khác
+	- Cloud base support Multi device (ít nhất là PC, Mobile) để ở đâu cũng xem được
+	- **FREE!!!** thì rất tốt....
 
 Hiện mới nghĩ ra bằng đó, sẽ update tiếp khi cần :v
 
