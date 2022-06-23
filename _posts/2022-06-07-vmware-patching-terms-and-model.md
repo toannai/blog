@@ -84,7 +84,7 @@ Download path tại: [https://customerconnect.vmware.com/patch](https://customer
 
 Note: Với các lỗi security có thể tra cứu thông tin tại VMware Security Advisories: [https://www.vmware.com/security/advisories.html](https://www.vmware.com/security/advisories.html)
 
-Cách thức: Có thể sử dụng file đóng gói zip bao gồm các file VIB để cài trên server qua kênh ssh theo hướng dẫn [tại đây](https://www.sbarjatiya.com/notes_wiki/index.php/Install_ESXi_patch_via_depot_zip_file) hoặc sử dụng Update manager.
+Cách thức: Có thể sử dụng file đóng gói zip/iso bao gồm các file VIB để cài trên server qua kênh ssh theo hướng dẫn [tại đây](https://www.sbarjatiya.com/notes_wiki/index.php/Install_ESXi_patch_via_depot_zip_file) hoặc sử dụng Update manager.
 
 OK, Hôm nay tôi tạm dừng ở đây, có gì hay ho sẽ cập nhật tiếp,
 
