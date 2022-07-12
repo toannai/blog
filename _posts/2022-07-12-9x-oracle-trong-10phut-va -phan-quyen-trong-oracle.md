@@ -85,21 +85,21 @@ Có 2 loại quyền cơ bản là quyền hệ thống và quyền đối tư�
 ![sys perm]( {{site.url}}/assets/img/2022/07/12/overviewperm.png) 
   
 *	Quyền hệ thống (System Privilege): là quyền thực hiện một tác vụ CSDL cụ thể hoặc quyền thực hiện một loại hành động trên tất cả những đối tượng trong schema của hệ thống. Vd: ALTER SYSTEM, CREATE TABLE, DELETE ANY TABLE,…User có thể cấp 1 quyền hệ thống nếu có một trong các điều kiện sau:
--	User đã được cấp quyền hệ thống với tùy chọn WITH ADMIN OPTION.
--	User có quyền GRANT ANY PRIVILEGE. 
+	-	User đã được cấp quyền hệ thống với tùy chọn WITH ADMIN OPTION.
+	-	User có quyền GRANT ANY PRIVILEGE. 
 
-![sys perm]( {{site.url}}/assets/img/2022/07/12/sysperm.png) 
+	![sys perm]( {{site.url}}/assets/img/2022/07/12/sysperm.png) 
 
--	Oracle có một số quyền quản trị hệ thống (administrative privileges) đặc biệt cần biết:
+	-	Oracle có một số quyền quản trị hệ thống (administrative privileges) đặc biệt cần biết:
 
 ![special perm]( {{site.url}}/assets/img/2022/07/12/specialrole.png) 
 
 *	Quyền đối tượng Quyền đối tượng (Object Privilege): là quyền thực hiện một hành động cụ thể trên một đối tượng cụ thể, dùng để quản lý việc truy xuất đến các đối tượng của schema cụ thể nào đó.User có thể cấp 1 quyền đối tượng nếu có một trong các điều kiện sau:
--	User có thể cấp bất kỳ quyền đối tượng trên bất kỳ đối tượng nào thuộc sở hữu của mình cho user khác.
--	User có quyền GRANT ANY OBJECT PRIVILEGE.
--	User được cấp quyền đối tượng đó với tùy chọn WITH GRANT OPTION.
+	-	User có thể cấp bất kỳ quyền đối tượng trên bất kỳ đối tượng nào thuộc sở hữu của mình cho user khác.
+	-	User có quyền GRANT ANY OBJECT PRIVILEGE.
+	-	User được cấp quyền đối tượng đó với tùy chọn WITH GRANT OPTION.
  
-![object perm]( {{site.url}}/assets/img/2022/07/12/objectperm.png) 
+	![object perm]( {{site.url}}/assets/img/2022/07/12/objectperm.png) 
 
 ### Nói về Role
 
