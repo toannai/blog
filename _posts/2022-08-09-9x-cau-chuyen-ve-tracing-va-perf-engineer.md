@@ -15,7 +15,7 @@ Hồi đấy hệ thống product cũng hoạt động chồng chéo. Ứng dụ
 
 Cá nhân làm thì cứ hay tự hỏi, ước ước mơ mơ. Và ước mơ hồi ấy là để trả lời câu hỏi cái gì đang diễn ra bên trong follow xử lý yêu cầu người dùng khi gửi tới ứng dụng? Cụ thể là từng function đang tiêu tốn tài nguyên thế nào? tốn bao thời gian để thực hiện các function đó? Sau này công việc không còn liên quan nhiều nữa, không làm ở mức low level nữa nên câu trả lời nhìn chung vẫn chưa trả lời cặn kẽ. 
 
- Với kinh nghiệm cá nhân và các kỹ thuật tracing hiện tại nếu quay lại "những năm tháng ấy" mình tin là chắc chắn sẽ khác. Thế hệ ngày nay chs cứ thấy nhiều bạn làm sys/ops chỉ thích tập trung vào các hot trend như CI/CD, AWS, GCP không thích các thứ kiểu low level như vậy làm mình cảm thấy mình kiểu già VCH. Vậy nên 2 mùa syscon gần đây thấy Mr.TungDam khơi gợi lại câu hỏi năm xưa =)) thấy thân thuộc quá. Chắc đó là lý do hay đi syscon. 
+Với kinh nghiệm cá nhân và sự phát triển của các kỹ thuật/công cụ tracing hiện tại nếu quay lại "những năm tháng ấy" mình tin là chắc chắn sẽ khác. Thế hệ ngày nay chs cứ thấy nhiều bạn làm sys/ops chỉ thích tập trung vào các hot trend như CI/CD, AWS, GCP không thích các thứ kiểu như vậy, đôi khi làm mình cảm thấy mình kiểu già VCH. Vậy nên 2 mùa syscon gần đây thấy Mr.TungDam khơi gợi lại câu hỏi năm xưa =)) thấy thân thuộc quá. Chắc đó là lý do hay đi syscon. 
 
 
 
