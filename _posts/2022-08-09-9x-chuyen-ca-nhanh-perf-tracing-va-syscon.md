@@ -21,5 +21,7 @@ Thế hệ các bạn làm sys/ops sau này có vẻ thích tập trung vào cá
 
 Chả biết thế nào nhưng nếu làm Ops chắc chắn mình sẽ dành nhiều thời gian hơn cho domain Tracing và Perf tunning. Cá nhân thấy rằng một hệ thống chạy thôi chưa đủ mà phải chạy ngon và mượt hơn từng ngày. 
 
+P/S: Trước đang đọc dở cuốn Systems Performance Enterprise And The Cloud thấy cũng hay liên quan tới domain này, bạn nào quan tâm có thể tham khảo (Đọc rồi viết blog mình hóng với) :) 
+
 
 
