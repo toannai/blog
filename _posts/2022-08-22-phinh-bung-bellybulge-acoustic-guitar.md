@@ -4,7 +4,7 @@ title: "Phình/phồng bụng - Belly Bulge Acoustic guitar,"
 author: "remi"
 categories: Fun
 tags: [Fun]
-image: assets/img/2022/08/22/intro.jpg
+image: assets/img/2022/08/22/intro.png
 ---
 
 Nếu bạn nhận thấy rằng khu vực cầu (Một số gọi là bridge/ngựa) của cây đàn guitar acoustic của bạn cao hơn phần còn lại của mặt trên (mặt top) thùng đàn thì rất có thể cây đàn của bạn đang gặp vấn đề  - Trong giới tiếng việt gọi là “Phình/phồng bụng/top” Tiếng anh thì gọi là “Belly Bulge”. Cùng đọc bài viết này của mình để hiểu rõ hơn về vấn đề này.
