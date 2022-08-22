@@ -2,8 +2,8 @@
 layout: post
 title: "Phình/phồng bụng - Belly Bulge Acoustic guitar,"
 author: "remi"
-categories: job
-tags: [Việc]
+categories: Fun
+tags: [Fun]
 image: assets/img/2022/08/22/intro.jpg
 ---
 
