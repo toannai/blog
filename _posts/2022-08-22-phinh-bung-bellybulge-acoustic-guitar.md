@@ -41,7 +41,7 @@ Một số người chơi nhầm điều này với chứng phình bụng và s�
 
 **Tilted or lifted bridge - Cầu nghiêng hoặc cầu nâng:** Đôi khi rất khó để biết cầu có bị nghiêng hay không, vì vậy việc kiểm tra xem có bất kỳ khoảng trống nào bên dưới cầu hay không sẽ giúp bạn nhận ra nó có đang nâng lên khỏi đỉnh hay không. Bạn cũng có thể kiểm tra điều này bằng cách thử đặt một mảnh giấy giữa cây cầu và mặt top đàn xem có lọt khe không ~ nghe hơi stupid vì khi đó nhìn rõ còn gì cơ mà mấy ông nước ngoài khuyên vậy.
 
-Ngoài cách này có thể tham khảo phương pháp kiểm tra của các kỹ sư của taylor hướng dẫn ở video này [https://www.youtube.com/watch?v=GS6GqjP-zMY&ab_channel=TaylorGuitars](https://www.youtube.com/watch?v=GS6GqjP-zMY&ab_channel=TaylorGuitars) . Cách làm là dùng 1 thước thẳng lên 2 bên đỉnh đường cong mặt đàn bên nếu thước bám vào mặt đàn đều là đàn bình thường. Ngược lại có gap - khoảng trống là đàn bị cong/vênh.
+Ngoài cách này có thể tham khảo phương pháp kiểm tra của các kỹ sư của taylor hướng dẫn ở video này [https://www.youtube.com/watch?v=GS6GqjP-zMY&ab_channel=TaylorGuitars](https://www.youtube.com/watch?v=GS6GqjP-zMY&ab_channel=TaylorGuitars) . Cách làm là dùng 1 thước thẳng đặt lên 2 bên đỉnh đường cong mặt đàn bên nếu thước bám vào mặt đàn đều là đàn bình thường. Ngược lại có gap - khoảng trống là đàn bị cong/vênh.
 
 ![taylor method]({{site.url}}/assets/img/2022/08/22/taylor_method.png)
 
