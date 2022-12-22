@@ -21,7 +21,7 @@ plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-t
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 title:		           'Toan Notes'
-description:	       'Grow up with me,'
+description:	       '#Tryhard,'
 author:              'Remi'
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines

@@ -55,7 +55,6 @@ Sau pha lạc đường mò về nhà trời tối nhem. Ae V-xanh ĐN (Gửi l�
 
 ![camping2]( {{site.url}}/assets/img/2022/04/22/camp2.jpg)
 
-![camping3]( {{site.url}}/assets/img/2022/04/22/camp3.jpg)
 
 #### Đây tu, dọc xuống phía Nam lên núi Thần Tài,
 
