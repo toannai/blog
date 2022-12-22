@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Một chút về blog,
+title: Một chút về tôi,
 permalink: /about
 ---
 
