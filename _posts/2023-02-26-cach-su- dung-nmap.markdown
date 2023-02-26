@@ -21,7 +21,6 @@ Với mỗi công việc xác định thông tin nào đó (ta hay gọi là sca
 
 Sau khi hiểu được đại ý tính năng của nmap phần sau chủ yếu ta sẽ tập trung vào làm rõ cách sử dụng các option trong command sao cho hợp lý. Cách tiếp cận thông thường của tôi để xác định sử dụng option nào sẽ tham khảo từ cheetsheet (đây là cheetsheet mà tôi thấy có vẻ ok nhất tìm được trên mạng) [Link Cheetsheet NMAP]({{site.url}}/assets/img/2023/02/26/nmap_cheet_sheet_v7.pdf). Trong trường hợp cheetsheet không có thì tìm google hoặc hỏi ChatGPT thôi (Lựa chọn mới). Anw, thời buổi hiện nay làm gì cũng được miễn là sử dụng từ khóa tìm kiếm phù hợp mà thôi.
 
-
 >Từ đây trở về sau bất cứ chỗ nào sử dụng sudo là cần quyền root để có thể thực hiện scan thành công. Lý do là với mốt số chiến lược nmap cần sử dụng đặc quyền cao để thực hiện một số tác vụ mà ở user thường OS không cho phép thực hiện.
 
 # Một số option chung
@@ -30,7 +29,7 @@ Nmap có một số option chung mà ta có thể sử dụng ở tất cả cá
 
 ![common_options]({{site.url}}/assets/img/2023/02/26/common_options.PNG)
 
-Áp dụng: Lấy ví dụ thay bằng việc phải gõ vào từng subnet/host từ command ta có thể đặt chúng trong 1 file tên là **targets.txt** rồi sử option `-iL` để load file này vào nmap scan (Dĩ nhiên scan cái gì ta sẽ kết hợp thêm các options khác). Ví dụ: để scan host alive bằng ARP(-PR) không scan port (-sn) trong mạng LAN ta sử dụng lệnh sau:
+Áp dụng: Lấy ví dụ thay bằng việc phải gõ vào từng subnet/host từ command ta có thể đặt chúng trong 1 file tên là **targets.txt** rồi sử option `-iL` để load file này vào nmap scan (Dĩ nhiên scan cái gì ta sẽ kết hợp thêm các options khác), mỗi host/subnet là một dòng. Ví dụ: để scan host alive bằng ARP(-PR) không scan port (-sn) trong mạng LAN ta sử dụng lệnh sau:
 
 `sudo nmap -PR -sn -iL targets.txt`
 
@@ -38,15 +37,20 @@ Nmap có một số option chung mà ta có thể sử dụng ở tất cả cá
 
 # Nmap live host Discovery ~ Xác định host còn sống (alive/online) trong mạng
 
+Khi cần xác định các host trong mạng hoặc một host còn sống (alive/online) ta có thể sử dụng một số phương pháp như sau.
+
 ![host alive overview]({{site.url}}/assets/img/2023/02/26/host_alive_overview.PNG)
 
-## Nmap Host Discovery Using ARP
+Chú ý: Do chỉ cần xác định host alive không quan tâm tới port, dịch vụ nên ta thường xuyên sử dụng option `-sn`: Bỏ qua scan port chỉ scan host sống hay không để giảm thời gian scan.
 
-`$ sudo nmap -PR -sn 10.10.210.6/24` 
+Có cái nhìn tổng quan rồi, bây giờ giả sử muốn sử dụng chiến lược dùng ARP scan ta đi hỏi chat gpt thôi.
 
-+ `-PR`: Scan sử dụng arp
-+ `-sn`: Không scan port
+![chat gpt]({{site.url}}/assets/img/2023/02/26/host_alive_arp.PNG)
 
-Cơ chế mô tả bằng hính sau:
+Thêm option load from file nào
 
-![host alive arp]({{site.url}}/assets/img/2023/02/26/host_alive_arp.PNG)
+![chat gpt arp and load list]({{site.url}}/assets/img/2023/02/26/combine_list_arp.PNG)
+
+Với các chiến lược còn lại ta làm tương tự thôi. Cái này easy quá phải không
+
+
