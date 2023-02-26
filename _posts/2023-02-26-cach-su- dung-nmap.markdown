@@ -100,7 +100,7 @@ Ngoài nmap cũng hỗ trợ ta xác định các dịch vụ (Dịch vụ là g
 Trong đó: `-sV`: Là option chỉ ra rằng nmap sẽ scan detect service .`--version-intensity [0-9]` là option để tăng mức độ chi tiết của thông tin liên quan tới dịch vụ ta thực hiện scan. Chỉ số càng cao mức độ chi thông tin chi tiết càng nhiều. 
 
 
-### NSE scrip trong nmap
+### NSE script trong nmap
 
 Script trong Nmap là các chương trình viết bằng ngôn ngữ Lua, được sử dụng để tự động hóa các nhiệm vụ trong quá trình quét mạng. Các script này được sử dụng để thực hiện các tác vụ như phát hiện lỗ hổng bảo mật, thu thập thông tin từ các dịch vụ mạng và xác định các thiết bị trong mạng
 
