@@ -17,15 +17,10 @@ Nmap là một công cụ khá quen thuộc với tất cả những ai làm tro
 
 Từ hình có thể thấy rằng tính năng của nmap có vẻ tập trung vào từng pha một của việc discovery thông tin trong mạng. Nmap có thể nhận đầu vào là một địa chỉ mạng (vd: 192.168.1.0/24)/một host (địa chỉ ip hoặc domain). Sau khi nhận được đầu vào này nó sẽ hỗ trợ ta xác định host nào trong mạng (trong t/h đầu vào là một địa chỉ mạng) hoặc host được nhập vào (trong t/h nhận vào là địa chỉ một host) vẫn còn sống (alive/online) hay không. Trong t/h host còn sống nmap có thể hỗ trợ ta xác định OS của host. Các port mở trên host. Các port này tương ứng với dịch vụ nào, version ra sao. Ngoài ra nmap còn cung cấp khả năng mở rộng bằng các script - tập lệnh tùy chọn áp dụng đối với 1 đối tượng (vd khi xác định được 1 port open thì thực hiện làm gì). Các kết quả scan/chạy script này có thể được lưu ra file với nhiều định dạng khác nhau.
 
-Với mỗi công việc xác định thông tin nào đó (ta hay gọi là scan) nmap thường có các chiến lược (tatics) khác nhau. Lấy ví dụ để scan host còn sống nmap có thể sử dụng **scác phương pháp khác nhau** vd: Arp scan, ICMP scan hoặc TCP/UDP scan. Tùy các chiến lược mà ta sử dụng các option khác nhau.
+Với mỗi công việc xác định thông tin nào đó (ta hay gọi là scan) nmap thường có các chiến lược (tatics)/kỹ thuật khác nhau. Lấy ví dụ để scan host còn sống nmap có thể sử dụng **các phương pháp khác nhau** VD: ARP scan, ICMP scan hoặc TCP/UDP scan. Tùy các chiến lược mà ta sử dụng các option khi chạy command khác nhau. Việc lựa chọn chiến lược nào (hoặc cũng có thể kết hợp nhiều chiến lược nào với nhau) tùy thuộc vào từng hoàn cảnh cụ thể của người sử dụng. Ví dụ scan trong LAN thì mới dùng được ARP hoặc sử dụng 1 số chiến lược SYN scan để bypass Firewall (Do một số loại FW có cơ chế hạn chế khả năng bị scan).
 
-Sau khi hiểu được đại ý tính năng của nmap phần sau chủ yếu chỉ là các cheetsheet liệt kê các option phân theo từng tính năng. 
+Sau khi hiểu được đại ý tính năng của nmap phần sau chủ yếu ta sẽ tập trung vào làm rõ cách sử dụng các option trong command sao cho hợp lý. Cách tiếp cận thông thường của tôi để xác định sử dụng option nào sẽ tham khảo từ cheetsheet (đây là cheetsheet mà tôi thấy có vẻ ok nhất tìm được trên mạng) [Link Cheetsheet NMAP]({{site.url}}/assets/img/2023/02/26/nmap_cheet_sheet_v7.pdf). Trong trường hợp cheetsheet không có thì tìm google hoặc hỏi ChatGPT thôi (Lựa chọn mới). Anw, thời buổi hiện nay làm gì cũng được miễn là sử dụng từ khóa tìm kiếm phù hợp mà thôi.
 
-Tất cả các option sẽ tham khảo từ cheetsheet này (đây là cheetsheet mà tôi thấy có vẻ ok nhất)
-
-[Cheetsheet NMAP]({{site.url}}/assets/img/2023/02/26/nmap_cheet_sheet_v7.pdf)
-
-Từ đoạn này về sau là tôi hướng đãn sử dụng cheetsheet bên trên nha
 
 >Từ đây trở về sau bất cứ chỗ nào sử dụng sudo là cần quyền root để có thể thực hiện scan thành công. Lý do là với mốt số chiến lược nmap cần sử dụng đặc quyền cao để thực hiện một số tác vụ mà ở user thường OS không cho phép thực hiện.
 
@@ -35,7 +30,7 @@ Nmap có một số option chung mà ta có thể sử dụng ở tất cả cá
 
 ![common_options]({{site.url}}/assets/img/2023/02/26/common_options.PNG)
 
-Áp dụng: Lấy ví dụ thay bằng việc phải gõ vào từng subnet/host từ command ta có thể đặt chúng trong 1 file tên là **targets.txt** rồi sử option `-iL` để load file này vào nmap scan (Dĩ nhiên scan cái gì ta sẽ kết hợp thêm các options khác). Ví dụ: để scan host alive bằng ARP (-PR) không scan port (-sn) ta sử dụng lệnh sau:
+Áp dụng: Lấy ví dụ thay bằng việc phải gõ vào từng subnet/host từ command ta có thể đặt chúng trong 1 file tên là **targets.txt** rồi sử option `-iL` để load file này vào nmap scan (Dĩ nhiên scan cái gì ta sẽ kết hợp thêm các options khác). Ví dụ: để scan host alive bằng ARP(-PR) không scan port (-sn) trong mạng LAN ta sử dụng lệnh sau:
 
 `sudo nmap -PR -sn -iL targets.txt`
 
@@ -51,45 +46,6 @@ Nmap có một số option chung mà ta có thể sử dụng ở tất cả cá
 
 + `-PR`: Scan sử dụng arp
 + `-sn`: Không scan port
-
-Cơ chế mô tả bằng hính sau:
-
-![host alive arp]({{site.url}}/assets/img/2023/02/26/host_alive_arp.PNG)
-
-## Nmap Host Discovery Using ICMP
-
-### Sử dụng ICMP echo request  (ICMP Type 8)
-
-`sudo nmap -PE -sn 10.10.68.220/24`
-
-+ `-PE`: Scan sử dụng echo request
-+ `-sn`: Không scan port
-
-
-Cơ chế mô tả bằng hính sau:
-
-![host alive arp]({{site.url}}/assets/img/2023/02/26/host_alive_arp.PNG)
-
-### Sử dụng ICMP timestamp requests (ICMP Type 13)
-
-`sudo nmap -PE -sn 10.10.68.220/24`
-
-+ `-PE`: Scan sử dụng timestamp requests
-+ `-sn`: Không scan port
-
-
-Cơ chế mô tả bằng hính sau:
-
-![host alive arp]({{site.url}}/assets/img/2023/02/26/host_alive_arp.PNG)
-
-
-#### Sử dụng ICMP address mask queries (ICMP Type 17)
-
-`sudo nmap -PM -sn 10.10.68.220/24`
-
-+ `-PM`: Scan sử dụng mask queries
-+ `-sn`: Không scan port
-
 
 Cơ chế mô tả bằng hính sau:
 
