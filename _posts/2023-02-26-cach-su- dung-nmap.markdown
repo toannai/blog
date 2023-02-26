@@ -68,7 +68,11 @@ Khi cần xác định một/các port được mở trên 1 host ta có thể s
 
 ![Port scan]({{site.url}}/assets/img/2023/02/26/port_scan.png)
 
-TCP là giao thức truyền tải hướng kết nối. Có quá trình bắt tay 3 bước để khởi tạo kết nối và thông báo khi đóng kết nối mô tả bằng hình bên dưới (Cái này quá quen rồi). Các chiến lược TCP scan hầu hết thực hiện bằng việc gửi một hoặc 1 số gói tới đích cần scan và **nghe ngóng** kết quả phàn hồi để xác định port mở hay đóng. Chi tiết việc **gửi** và **ngóng** được mô tả khá dễ hiểu bằng các hình sau trong cheetsheet:
+TCP là giao thức truyền tải hướng kết nối. Có quá trình bắt tay 3 bước để khởi tạo kết nối và thông báo khi đóng kết nối mô tả bằng hình bên dưới (Cái này quá quen rồi).
+
+![TCP flow]({{site.url}}/assets/img/2023/02/26/tcp_full.jpg)
+
+Các chiến lược TCP scan hầu hết thực hiện bằng việc gửi một hoặc 1 số gói tới đích cần scan và **nghe ngóng** kết quả phàn hồi để xác định port mở hay đóng. Chi tiết việc **gửi** và **ngóng** được mô tả khá dễ hiểu bằng các hình sau trong cheetsheet:
 
 ![Tacstic Port scan]({{site.url}}/assets/img/2023/02/26/tacstic_scan.PNG)
 
