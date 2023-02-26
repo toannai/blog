@@ -29,12 +29,23 @@ Từ đoạn này về sau là tôi hướng đãn sử dụng cheetsheet bên t
 
 >Từ đây trở về sau bất cứ chỗ nào sử dụng sudo là cần quyền root để có thể thực hiện scan thành công. Lý do là với mốt số chiến lược nmap cần sử dụng đặc quyền cao để thực hiện một số tác vụ mà ở user thường OS không cho phép thực hiện.
 
+# Một số option chung
 
-## Nmap live host Discovery ~ Xác định host còn sống (alive/online) trong mạng
+Nmap có một số option chung mà ta có thể sử dụng ở tất cả các loại scan. Cụ thể như phần đầu của cheetsheet bên trên
+
+![common_options]({{site.url}}/assets/img/2023/02/26/common_options.PNG)
+
+Áp dụng: Lấy ví dụ thay bằng việc phải gõ vào từng subnet/host từ command ta có thể đặt chúng trong 1 file tên là **targets.txt** rồi sử option `-iL` để load file này vào nmap scan (Dĩ nhiên scan cái gì ta sẽ kết hợp thêm các options khác). Ví dụ: để scan host alive bằng ARP (-PR) không scan port (-sn) ta sử dụng lệnh sau:
+
+`sudo nmap -PR -sn -iL targets.txt`
+
+
+
+# Nmap live host Discovery ~ Xác định host còn sống (alive/online) trong mạng
 
 ![host alive overview]({{site.url}}/assets/img/2023/02/26/host_alive_overview.PNG)
 
-### Nmap Host Discovery Using ARP
+## Nmap Host Discovery Using ARP
 
 `$ sudo nmap -PR -sn 10.10.210.6/24` 
 
@@ -45,9 +56,9 @@ Cơ chế mô tả bằng hính sau:
 
 ![host alive arp]({{site.url}}/assets/img/2023/02/26/host_alive_arp.PNG)
 
-### Nmap Host Discovery Using ICMP
+## Nmap Host Discovery Using ICMP
 
-#### Sử dụng ICMP echo request  (ICMP Type 8)
+### Sử dụng ICMP echo request  (ICMP Type 8)
 
 `sudo nmap -PE -sn 10.10.68.220/24`
 
@@ -59,7 +70,7 @@ Cơ chế mô tả bằng hính sau:
 
 ![host alive arp]({{site.url}}/assets/img/2023/02/26/host_alive_arp.PNG)
 
-#### Sử dụng ICMP timestamp requests (ICMP Type 13)
+### Sử dụng ICMP timestamp requests (ICMP Type 13)
 
 `sudo nmap -PE -sn 10.10.68.220/24`
 
