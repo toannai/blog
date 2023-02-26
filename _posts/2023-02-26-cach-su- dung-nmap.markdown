@@ -4,7 +4,7 @@ title: "Học cách sử dụng nmap,"
 author: "remi"
 categories: job
 tags: [Việc]
-image: assets/img/2022/08/10/tracing_intro.jpg
+image: assets/img/2023/02/26/nmap_intro.PNG
 ---
 
 Nmap là một công cụ khá quen thuộc với tất cả những ai làm trong lĩnh vực system, network hoặc security. Nmap hỗ trợ hàng tá các tính năng tương ứng với đó là list các option rất dài và rối. Điều này khiến cho bất cứ ai khi mới sử dụng nmap khá bối dối (Cả tôi cũng vậy), làm sao để nhớ đây. Buổi ngày hôm nay sẽ note lại cách tiếp cận của tôi để việc làm việc với nmap trở nên hiệu quả hơn. 
