@@ -117,6 +117,22 @@ Mặc định nmap sẽ đẩy kết quả scan ra màn hình console. Ta có th
 
 ![OUtput Port scan]({{site.url}}/assets/img/2023/02/26/output.PNG)
 
+# Xào nấu?
+
+Phía trên chúng ta nói rất nhiều về các option riêng rẽ của nmap. Tới đây nói về một chuyện thú vị hơn đó là việc kết hợp nhiều option để thực hiện việc scan. Việc kết hợp này hoàn toàn tuân theo quy luật sử dụng kết hợp các option của command trên linux.
+
+`sudo nmap kenh14.vn -sT -sV -sC -O`  => Đây là ví dụ việc kết hợp các option scan TCP connect ở pharse host discovery (Ta có thể thay đổi các cơ chế host discovery khác bằng các option ở phía trên), sau đó nếu host đã sống (alive/online) ta sẽ detect OS, detect Service rồi chạy toàn bộ các script mặc định tới target là địa chỉ kenh14.vn
+
+Nếu ta không chỉ định port thì mặc định nmap sẽ scan 1000 ports phổ biến. Giờ muốn scan một port thì ta chỉ thêm option về port vào command `-p80`.
+
+`sudo nmap kenh14.vn -sT -sV -sC -O -p 80`
+
+Còn nếu muốn scan toàn bộ 65535 port TCP thì ta sử dụng option -p-
+
+`sudo nmap kenh14.vn -sT -sV -sC -O -p-`
+
+OK chỉ lấy một ví dụ thế thôi, thực tế nếu bạn có nhu cầu nào thì các bạn tùy biến cho phù hợp. 
+
 # Hãy nhớ
 
 Bài viết khá dài và nhiều nội dung nhưng tôi nghĩ điều quan trọng là bạn nắm được các tính năng của nmap một cách có hệ thống thôi, còn lại chi tiết hãy để Google và chat GPT lo. Cái đầu của chúng ta quá nhỏ bé để nhớ tất cả mọi thứ phải không.
