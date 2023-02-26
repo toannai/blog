@@ -58,15 +58,15 @@ Với các chiến lược còn lại ta làm tương tự thôi. Cái này easy
 
 Trước khi bắt đầu ta cần hiểu một số trạng thái của port mà nmap có thể trả lại khi ta thực hiện scan port. Các trạng thái có thể xảy ra bao gồm:
 
-+ Open (mở): Điều này có nghĩa là một ứng dụng đang lắng nghe kết nối trên cổng đó.
-+ Closed (đóng): Điều này có nghĩa là cổng không có ứng dụng nào lắng nghe kết nối.
-+ Filtered (được lọc): Điều này có nghĩa là cổng đó đang bị chặn bởi tường lửa hoặc bởi các thiết bị bảo mật khác.
-+ Unfiltered (không được lọc): Điều này có nghĩa là Nmap không thể xác định trạng thái của cổng.
-+ Open|Filtered (mở hoặc được lọc): Điều này có nghĩa là Nmap không thể xác định chắc chắn liệu cổng đó có được mở hay không do bị chặn bởi tường lửa hoặc các thiết bị bảo mật khác.
++ `Open` (mở): Điều này có nghĩa là một ứng dụng đang lắng nghe kết nối trên cổng đó.
++ `Closed` (đóng): Điều này có nghĩa là cổng không có ứng dụng nào lắng nghe kết nối.
++ `Filtered` (được lọc): Điều này có nghĩa là cổng đó đang bị chặn bởi tường lửa hoặc bởi các thiết bị bảo mật khác.
++ `Unfiltered` (không được lọc): Điều này có nghĩa là Nmap không thể xác định trạng thái của cổng.
++ `Open|Filtered` (mở hoặc được lọc): Điều này có nghĩa là Nmap không thể xác định chắc chắn liệu cổng đó có được mở hay không do bị chặn bởi tường lửa hoặc các thiết bị bảo mật khác.
 
 Khi cần xác định một/các port được mở trên 1 host ta có thể sử dụng một số chiến lược/kỹ thuật scan như sau:
 
-![Port scan]({{site.url}}/assets/img/2023/02/26/port_scan.PNG)
+![Port scan]({{site.url}}/assets/img/2023/02/26/port_scan.png)
 
 TCP là giao thức truyền tải hướng kết nối. Có quá trình bắt tay 3 bước để khởi tạo kết nối và thông báo khi đóng kết nối mô tả bằng hình bên dưới (Cái này quá quen rồi). Các chiến lược TCP scan hầu hết thực hiện bằng việc gửi một hoặc 1 số gói tới đích cần scan và **nghe ngóng** kết quả phàn hồi để xác định port mở hay đóng. Chi tiết việc **gửi** và **ngóng** được mô tả khá dễ hiểu bằng các hình sau trong cheetsheet:
 
