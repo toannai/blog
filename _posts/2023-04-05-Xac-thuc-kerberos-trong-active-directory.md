@@ -26,7 +26,7 @@ Lúc học ĐH học về Kerberos chả hiểu để làm gì mãi đến khi �
 - **Trusted third-party:** Kerberos được sử dụng như centralized authentication server được biết như là Key Distribution Center (KDC) nơi mà tất cả các devices trong network trust by default. Điều này đảm bảo rằng các thông tin nhạy cảm không lưu trữ trên local machine => Đây chắc là lý do quan trọng nhất cần sinh ra kerberos
 - **Mutual authentication:** Trong  Kerberos, cả 2 bên giao tiếp communication với nhau phải được authenticated trước khi quá trình communication được thực hiện.
 
-## Thành phần của Kerberos
+## Thành phần chính của Kerberos arch
 
 Dưới đây là một số thành phần core của Kerberos schema authentication protocol
 
@@ -41,7 +41,7 @@ Các thành phần được mô tả bằng hình vẽ sau
 ![krb component]({{site.url}}/assets/img/2023/04/05/krb_components.png)
 
 
-# ****How Does Kerberos Authentication Work in an AD Environment?****
+## Kerberos Authentication trong môi trường AD diễn ra như thế nào?
 
 Quá trình Kerberos authentication trải qua một vài bước tuy nhiên việc này thực hiện rất nhanh (gần như realtime). Trong Active Directory các bước này được tóm gọn như sau:
 
