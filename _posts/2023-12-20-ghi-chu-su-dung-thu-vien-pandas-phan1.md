@@ -12,7 +12,7 @@ Công việc chính hàng ngày của mình thì không phải là Developer cũ
 ## Series & DataFrame sự khởi nguồn,
 Trước khi bắt đầu làm việc với Pandas thì cần phải hiểu 2 khái niệm quan trọng nhất của nó là Series và DataFrame. Lấy tạm một cái hình cho dễ hình dung 2 khái niệm này là gì.
 
-![02 series data frame]( {{site.url}}/assets/img/2023/12/20/02_series_dataframe.png){:width="600px"}
+![02 series data frame]( {{site.url}}/assets/img/2023/12/20/02_series_dataframe.png){:width="900px"}
 
 Có thể thấy rằng Series là một list các số integer, string, double, ... Ta vẫn hay hình dung list ở dạng dòng ~ nằm ngang nhưng với series thì hãy hình dung nó ở dạng cột ~ nằm dọc. Mỗi series có Label và Index của từng phần tử trong series.
 
@@ -24,7 +24,7 @@ Bây giờ bắt đầu với việc thử tạo Series rồi sau đó là DataF
 
 Tạo thử từ cấu trúc quen thuộc List và Dict
 
-![03 Create series]( {{site.url}}/assets/img/2023/12/20/03_create_series.png){:width="600px"}
+![03 Create series]( {{site.url}}/assets/img/2023/12/20/03_create_series.png){:width="900px"}
 
 Text code cho đoạn sample bên trên (dành cho người muốn copy để chạy)
 ```
@@ -49,11 +49,11 @@ print(sr['day1']) # In ra phan tu co index la day1 Key trong dict dong vai tro l
 
 Vừa nói **Tập các Series ghép lại thành DataFrame** ta thử tạo DataFrame từ Series xem thực hiện thế nào?
 
-![03 Create dataframe1]( {{site.url}}/assets/img/2023/12/20/03_create_dataframe1.png){:width="600px"}
+![03 Create dataframe1]( {{site.url}}/assets/img/2023/12/20/03_create_dataframe1.png){:width="900px"}
 
 Hoặc tạo trực tiếp từ List hoặc Dict luôn
 
-![03 Create dataframe1]( {{site.url}}/assets/img/2023/12/20/03_create_dataframe2.png){:width="600px"}
+![03 Create dataframe1]( {{site.url}}/assets/img/2023/12/20/03_create_dataframe2.png){:width="900px"}
 
 Text code cho đoạn sample bên trên (dành cho người muốn copy để chạy)
 
