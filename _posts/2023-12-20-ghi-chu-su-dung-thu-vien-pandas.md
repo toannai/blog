@@ -14,9 +14,9 @@ Trước khi bắt đầu làm việc với Pandas thì cần phải hiểu 2 kh
 
 ![02 series data frame]( {{site.url}}/assets/img/2023/12/20/02_series_dataframe.png){:width="600px"}
 
-Có thể thấy rằng Series là một list các số integer, string, double, ... Ta vẫn hay hình dung list ở dạng dòng - nằm ngang nhưng với series thì hãy đổi chiều hãy nghĩ nó ở dạng cột - nằm dọc. Mỗi series có Label và Index của từng phần tử trong series.
+Có thể thấy rằng Series là một list các số integer, string, double, ... Ta vẫn hay hình dung list ở dạng dòng ~ nằm ngang nhưng với series thì hãy hình dung nó ở dạng cột ~ nằm dọc. Mỗi series có Label và Index của từng phần tử trong series.
 
-Tập các Series ghép lại thành DataFrame. Sau này khi làm việc với Pandas ta sẽ chủ yếu làm việc ở mức DataFrame là chính. Ta vẫn hay gặp các đoạn code `df = pd.pandas.read_csv(...)` thì df là viết tắt của DataFrame đó.
+Tập các Series ghép lại thành DataFrame. Sau này khi làm việc với Pandas ta sẽ chủ yếu làm việc ở mức DataFrame là chính. Trong các tutorial trên mạng hay có đoạn code `df = pd.pandas.read_csv(...)` thì df là viết tắt của DataFrame đó.
 
 Bây giờ bắt đầu với việc thử tạo Series rồi sau đó là DataFrame nào. Mình thì hay dùng VisualstudioCode vừa đẹp lại Free. Kết hợp với Plugin Jupiter Notebook thì quá tuyệt vời.
 
