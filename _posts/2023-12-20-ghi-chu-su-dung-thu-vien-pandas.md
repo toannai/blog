@@ -20,7 +20,7 @@ Tập các Series ghép lại thành DataFrame. Sau này khi làm việc với P
 
 Bây giờ bắt đầu với việc thử tạo Series rồi sau đó là DataFrame nào. Mình thì hay dùng VisualstudioCode vừa đẹp lại Free. Kết hợp với Plugin Jupiter Notebook thì quá tuyệt vời.
 
-Tạo thử Series từ List và Dict
+#### Tạo thử Series từ List và Dict
 
 ![03 Create series]( {{site.url}}/assets/img/2023/12/20/03_create_series.png){:width="600px"}
 
