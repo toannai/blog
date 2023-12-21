@@ -40,5 +40,5 @@ print(sr)
 calories = {"day1": 420, "day2": 380, "day3": 390}
 sr= pd.Series(calories)
 print(sr)
-print(sr['day1]) # In ra phan tu co index la day1 Key trong dict dong vai tro la index cua Series
+print(sr['day1']) # In ra phan tu co index la day1 Key trong dict dong vai tro la index cua Series
 ```
