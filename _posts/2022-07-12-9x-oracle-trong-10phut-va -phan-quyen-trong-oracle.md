@@ -3,7 +3,7 @@ layout: post
 title: "Quick QuickStart về Oracle DB và phân quyền trong Oracle DB,"
 author: "remi"
 categories: job
-tags: [Việc]
+tags: ['Unknown']
 image: assets/img/2022/07/12/intro.png
 ---
 

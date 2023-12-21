@@ -3,7 +3,7 @@ layout: post
 title: "Phú Yên 2019 - Loanh quanh VN,"
 author: "remi"
 categories: nho
-tags: [Nhớ]
+tags: ['Trip']
 image: assets/img/2019/09/15/maybay.JPG
 ---
 

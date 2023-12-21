@@ -3,7 +3,7 @@ layout: post
 title: "Software Engineer si tình, còn Tôi đã đục lỗ file .deb như thế nào,"
 author: "remi"
 categories: job
-tags: [Việc]
+tags: ['Linux']
 image: assets/img/2019/06/02/si-tinh-la-gi-010.jpg
 ---
 Tiêu đề vừa sến và nghe **"tít"** như của mấy anh hacker nhỉ. Nhưng không, tôi là sysadmin thôi, nay nhân tiện đọc để viết bài tôi kiếm được chuyện khá hay ho muốn kể cho mọi người nghe luôn nên đặt title **kêu** như vậy.

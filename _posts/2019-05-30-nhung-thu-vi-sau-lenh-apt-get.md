@@ -3,9 +3,10 @@ layout: post
 title: "Những thú vị sau lệnh apt-get mà ít người để ý,"
 author: "remi"
 categories: job
-tags: [Việc]
+tags: ['Linux']
 image: assets/img/2019/05/30/apt.jpg
 ---
+
 >Tản mạn về apt, apt-get, apt-cache, mọi người từng xài bao nhiêu % trong nội dung bài này của tôi rồi?
 
 Thống kê một trong những lệnh gõ nhiều nhất trên linux trong cuộc đời tôi có lẽ là **apt-get**. Nhẩm tính từ năm 1 đại học đã xài linux và gõ apt-get điên đảo rồi, cái hồi mà distro hay sử dụng là ubuntu tầm 9.X thì phải. Giờ đã lên 19 rồi (trùng hợp thế đúng 10 năm 10 base version). Nay có thời gian "take a note" về lệnh này, chỉ là sự điểm lại nhe nhẹ chứ không có ý cao siêu dạy người nên mọi người đừng chém tôi nhé. Ai thấy chán quá xin bỏ qua một cách nhẹ nhàng.

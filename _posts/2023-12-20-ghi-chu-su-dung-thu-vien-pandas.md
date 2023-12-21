@@ -3,7 +3,7 @@ layout: post
 title: "Ghi chú của toàn về việc sử dụng thư viện pandas trong xử lý file excel, csv,"
 author: "remi"
 categories: job
-tags: [Việc]
+tags: ['Python']
 image: assets/img/2023/12/20/01_intro_pandas.png
 ---
 

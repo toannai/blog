@@ -3,7 +3,7 @@ layout: post
 title: "Strace - tool hay để khoanh vùng troubleshoot bottleneck,"
 author: "remi"
 categories: job
-tags: [Việc]
+tags: ['Linux']
 image: assets/img/2019/05/25/strace-featured.png
 ---
 

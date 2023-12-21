@@ -3,7 +3,7 @@ layout: post
 title: "Đi Mù Cang Chải có gì vui,"
 author: "remi"
 categories: nho
-tags: [Nhớ]
+tags: ['Trip']
 image: assets/img/2020/10/10/mcc.jpg
 ---
 

@@ -3,9 +3,10 @@ layout: post
 title: "Quá trình boot trong linux - linux boot process,"
 author: "remi"
 categories: job
-tags: [Việc]
+tags: ['Linux']
 image: assets/img/2019/05/31/wakeupintro.png
 ---
+
 Tôi hỏi thật lúc ngủ dậy a/e thường làm những gì? Có hay làm gì bất chính không đấy =))
 
 ![Wake up]( {{site.url}}/assets/img/2019/05/31/wakeup.jpg)

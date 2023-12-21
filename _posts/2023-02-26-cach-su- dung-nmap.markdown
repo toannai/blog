@@ -3,7 +3,7 @@ layout: post
 title: "Học cách sử dụng nmap,"
 author: "remi"
 categories: job
-tags: [Việc]
+tags: ['Linux']
 image: assets/img/2023/02/26/nmap_intro.jpg
 ---
 

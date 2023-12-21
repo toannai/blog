@@ -3,7 +3,7 @@ layout: post
 title: "Chuyện họp hành,"
 author: "remi"
 categories: ngam
-tags: [Ngẫm]
+tags: ['Think']
 image: assets/img/2022/03/29/hop.png
 ---
 

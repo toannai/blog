@@ -3,7 +3,7 @@ layout: post
 title: "Chuyện cá nhân, chuyện performance tracing và syscon các thứ,"
 author: "remi"
 categories: job
-tags: [Việc]
+tags: ['Think']
 image: assets/img/2022/08/10/tracing_intro.jpg
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: "Đà nẵng 2022, Lúc đi hết mình lúc về hết hồn,"
 author: "remi"
 categories: nho
-tags: [Nhớ]
+tags: ['Trip']
 image: assets/img/2022/04/22/intro.jpg
 ---
 

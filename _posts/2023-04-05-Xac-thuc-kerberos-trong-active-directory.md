@@ -3,7 +3,7 @@ layout: post
 title: "Xác thực Kerberos trong Active Directory,"
 author: "remi"
 categories: job
-tags: [Việc]
+tags: ['Windows']
 image: assets/img/2023/04/05/krb_intro.jpg
 ---
 

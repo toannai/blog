@@ -3,7 +3,7 @@ layout: post
 title: "Đi biển quanh miền bắc thì đi đâu?"
 author: "remi"
 categories: nho
-tags: [Nhớ]
+tags: ['Trip']
 image: assets/img/2020/07/05/coto.JPG
 ---
 

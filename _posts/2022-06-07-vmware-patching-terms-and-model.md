@@ -3,7 +3,7 @@ layout: post
 title: "Một số thuật ngữ liên quan tới patching trong các sản phẩm của VMWare,"
 author: "remi"
 categories: job
-tags: [Việc]
+tags: ['Unknown']
 image: assets/img/2022/06/07/intro_update.jpg
 ---
 
