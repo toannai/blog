@@ -17,7 +17,7 @@ menu:
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
-- {icon: 'facebook',   link: 'https://www.facebook.com/fb'}
+- {icon: 'facebook',   link: 'https://www.facebook.com/toan9notes'}
 - {icon: 'twitter',    link: 'https://twitter.com/fb'}
 - {icon: 'linkedin',   link: 'http://www.linkedin.com/in/fb/'}
 - {icon: 'envelope',   link: 'mailto:fb@gmail.com'}
