@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Ghi chú của toàn về việc sử dụng thư viện pandas trong xử lý file excel, csv,"
+title: "[P1-Pandas] Ghi chú của toàn về việc sử dụng thư viện pandas trong xử lý file excel, csv,"
 author: "remi"
 categories: job
 tags: ['Python']
@@ -20,7 +20,9 @@ Tập các Series ghép lại thành DataFrame. Sau này khi làm việc với P
 
 Bây giờ bắt đầu với việc thử tạo Series rồi sau đó là DataFrame nào. Mình thì hay dùng VisualstudioCode vừa đẹp lại Free. Kết hợp với Plugin Jupiter Notebook thì quá tuyệt vời.
 
-#### Tạo thử Series từ List và Dict
+#### Tạo thử Series 
+
+Tạo thử từ cấu trúc quen thuộc List và Dict
 
 ![03 Create series]( {{site.url}}/assets/img/2023/12/20/03_create_series.png){:width="600px"}
 
@@ -42,3 +44,40 @@ sr= pd.Series(calories)
 print(sr)
 print(sr['day1']) # In ra phan tu co index la day1 Key trong dict dong vai tro la index cua Series
 ```
+
+#### Bây giờ tạo thử DataFrame
+
+Vừa nói **Tập các Series ghép lại thành DataFrame** ta thử tạo DataFrame từ Series xem thực hiện thế nào?
+
+![03 Create dataframe1]( {{site.url}}/assets/img/2023/12/20/03_create_dataframe1.png){:width="600px"}
+
+Hoặc tạo trực tiếp từ List hoặc Dict luôn
+
+![03 Create dataframe1]( {{site.url}}/assets/img/2023/12/20/03_create_dataframe2.png){:width="600px"}
+
+Text code cho đoạn sample bên trên (dành cho người muốn copy để chạy)
+
+```
+# Import pandas library
+import pandas as pd
+ 
+#1. Tao tu mang 1 chieu
+data = [10,20,30,40,50,60] # initialize list elements
+df = pd.DataFrame(data, columns=['Numbers']) # Create the pandas DataFrame with column name is provided explicitly
+display(df)
+
+#2. Tao tu dict bao gom cac list
+data = {
+  "calories": [420, 380, 390],
+  "duration": [50, 40, 45]
+}
+df = pd.DataFrame(data) #load data into a DataFrame object
+display(df)
+
+#3. Tao tu mang 2 chieu
+data = [['tom', 10], ['nick', 15], ['juli', 14]] # Initialize list of lists
+df = pd.DataFrame(data, columns=['Name', 'Age']) # Create the pandas DataFrame
+display(df)
+```
+
+Bài viết nó cũng khá dài, hôm nay thì tạm dừng ở đây hẹn sau có thời gian tôi sẽ biên tập tiếp nhé mn,
