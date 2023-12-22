@@ -14,7 +14,7 @@ Trước khi bắt đầu làm việc với Pandas thì cần phải hiểu 2 kh
 
 ![02 series data frame]( {{site.url}}/assets/img/2023/12/20/02_series_dataframe.png){:width="900px"}
 
-Có thể thấy rằng Series là một list các số integer, string, double, ... Ta vẫn hay hình dung list ở dạng dòng ~ nằm ngang nhưng với series thì hãy hình dung nó ở dạng cột ~ nằm dọc. Mỗi series có Label và Index của từng phần tử trong series.
+Có thể thấy rằng Series là một list các số integer, string, double, ... Ta vẫn hay hình dung list ở dạng dòng ~ nằm ngang nhưng với series thì hãy hình dung nó ở dạng cột ~ nằm dọc. Mỗi phần tử của Series được xác định bằng một Index hoặc Label. 
 
 Tập các Series ghép lại thành DataFrame. Sau này khi làm việc với Pandas ta sẽ chủ yếu làm việc ở mức DataFrame là chính. Trong các tutorial trên mạng hay có đoạn code `df = pd.pandas.read_csv(...)` thì df là viết tắt của DataFrame đó.
 
@@ -39,12 +39,12 @@ sr= pd.Series(data, index = ["x", "y", "z"]) #Them index cho Series
 print(sr)
 
 #Tao tu Dict
-calories = {"day1": 420, "day2": 380, "day3": 390}
+calories = {"day1": 420, "day2": 380, "day3": 390} #O day day1, day2, day3 duoc goi la Label
 sr= pd.Series(calories)
 print(sr)
-print(sr['day1']) # In ra phan tu co index la day1 Key trong dict dong vai tro la index cua Series
+print(sr['day1']) # In ra phan tu co Label la day1
 ```
-
+**Hãy nhớ Index và Label cùng để xác định một phần tử của Series cơ mà nó căn bản là khác nhau nha. Index nó dạng số tự sinh ra bởi pandas còn Label nó là text do người dùng gán**
 #### Bây giờ tạo thử DataFrame
 
 Vừa nói **Tập các Series ghép lại thành DataFrame** ta thử tạo DataFrame từ Series xem thực hiện thế nào?
