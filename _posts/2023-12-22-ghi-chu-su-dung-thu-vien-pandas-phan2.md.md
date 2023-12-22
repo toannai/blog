@@ -42,25 +42,26 @@ df.to_excel("output.xlsx") #Ghi ra file excel ouput.xlsx
 ```
 ## Thao tác với row
 ### Lấy ra row nào đó (Dựa trên index hoặc Label)
-Có thể sử dụng attribute iloc[] nếu lấy ra row theo Index hoặc dùng attribute loc[] nếu lấy theo label của row (loc chắc là viết tắt của locate chăng?)
+Có thể sử dụng attribute `iloc[]` nếu lấy ra row theo Index hoặc dùng attribute `loc[]` nếu lấy theo label của row (Không nhớ index với label là gì đọc lại bài viết trước. P/S: loc chắc là viết tắt của locate chăng???
 
 Nếu lấy ra theo index:
 ```
 df.iloc[start:stop:step] 
+
+Với start: index của dòng đầu cần lấy; stop: index của dòng cuối cần lấy; step: Khoảng cách/bước nhảy giữa các index cần lấy (default là 1). Chú ý đây là index luôn bắt đầu từ 0 nghĩa là index=1 sẽ là phần tử thứ 2, index=2 là phần tử thứ 3, ...
 ```
-index của row luôn bắt đầu từ 0; start: index của dòng đầu cần lấy; stop: index của dòng cuối cần lấy; step: Khoảng cách/bước nhảy giữa các index cần lấy (default là 1) 
 
 Ví dụ:
 ```
 # Select Rows by Integer Index
-df2 = df.iloc[2]     # Select Row by Index
-df2 = df.iloc[[2,3,6]]    # Select Rows by Index List
-df2 = df.iloc[1:5]   # Select Rows by Integer Index Range
-df2 = df.iloc[:1]    # Select First Row
-df2 = df.iloc[:3]    # Select First 3 Rows
-df2 = df.iloc[-1:]   # Select Last Row
-df2 = df.iloc[-3:]   # Select Last 3 Row
-df2 = df.iloc[::2]   # Selects alternate rows
+df1 = df.iloc[2]     # Select Row by Index
+df1 = df.iloc[[2,3,6]]    # Select Rows by Index List
+df1 = df.iloc[1:5]   # Select Rows by Integer Index Range
+df1 = df.iloc[:1]    # Select First Row
+df1 = df.iloc[:3]    # Select First 3 Rows
+df1 = df.iloc[-1:]   # Select Last Row
+df1 = df.iloc[-3:]   # Select Last 3 Row
+df1 = df.iloc[::2]   # Selects alternate rows
 ```
 
 Nếu lấy theo Label
@@ -70,11 +71,11 @@ df.loc[start:stop:step] #Lay ra phan tu dua tren i
 Ví dụ:
 ```
 # Select Rows by Index Labels
-df2 = df.loc['r2']          # Select Row by Index Label
-df2 = df.loc[['r2','r3','r6']]    # Select Rows by Index Label List
-df2 = df.loc['r1':'r5']     # Select Rows by Label Index Range
-df2 = df.loc['r1':'r5']     # Select Rows by Label Index Range
-df2 = df.loc['r1':'r5':2]   # Select Alternate Rows with in Index Labels
+df1 = df.loc['r2']          # Select Row by Index Label
+df1 = df.loc[['r2','r3','r6']]    # Select Rows by Index Label List
+df1 = df.loc['r1':'r5']     # Select Rows by Label Index Range
+df1 = df.loc['r1':'r5']     # Select Rows by Label Index Range
+df1 = df.loc['r1':'r5':2]   # Select Alternate Rows with in Index Labels
 ```
 ### Lẩy ra row dựa trên điều kiện nhất định
 
