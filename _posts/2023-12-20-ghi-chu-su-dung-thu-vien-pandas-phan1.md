@@ -10,7 +10,7 @@ image: assets/img/2023/12/20/01_intro_pandas.png
 Công việc chính hàng ngày của mình thì không phải là Developer cũng không phải DA/DS/DE gì gì đó để phải thường xuyên thao tác xử lý dữ liệu nhiều. Tuy nhiên trong công việc nhiều khi cũng cần sử dụng python để xử lý file có định dạng theo raw-column như csv/excel sau đó xuất ra định dạng theo ý muốn. Trước giờ cũng đã thử nhiều thư viện python để xử lý các file có định dạng kiểu này. Tuy nhiên thử tới thử lui thì nhận ra Pandas thực sự là chân ái. Mình hay có thói quen take note trên Notion. Nay cũng rảnh biên tập lại post lên đây một số đoạn code pandas hay sử dụng hy vọng "ngày nào ấy" có ai đó search GG, đọc bài viết của mình thì thật là "vui".
 
 ## Series & DataFrame sự khởi nguồn,
-Trước khi bắt đầu làm việc với Pandas thì cần phải hiểu 2 khái niệm quan trọng nhất của nó là Series và DataFrame. Lấy tạm một cái hình cho dễ hình dung 2 khái niệm này là gì.
+Trước khi bắt đầu làm việc với Pandas thì cần phải hiểu 2 khái niệm quan trọng nhất của nó là Series và DataFrame. Cần nhớ đây là 2 đối tượng ~ "Object" trong python. Cơ mà nhỡ nếu chưa biết Object là thì cũng không cần lo, điều ấy không ảnh hưởng nhiều tới việc dùng pandas cứ để đầu óc free. Lấy tạm một cái hình cho dễ hình dung 2 khái niệm này là gì.
 
 ![02 series data frame]( {{site.url}}/assets/img/2023/12/20/02_series_dataframe.png){:width="900px"}
 
