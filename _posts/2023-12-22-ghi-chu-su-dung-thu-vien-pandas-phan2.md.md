@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Pandas-P2] Ghi chú của toàn về việc sử dụng thư viện pandas trong xử lý file excel, csv,"
+title: "[Pandas-P2] Ghi chú về việc sử dụng thư viện pandas trong xử lý file excel, csv,"
 author: "remi"
 categories: job
 tags: ['Python']
