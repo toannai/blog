@@ -87,6 +87,7 @@ df1 = df.loc['r1':'r5':2]       # Chọn các row nằm trong khoảng index lab
 Nhiều khi ta cần lấy ra các row có dựa trên một số điều kiện nhất định
 
 + Chọn Rows dựa trên giá trị của một cột
+
 ```
 df[df["author"] == 'Arpit']        #Chọn row có giá trị author ='Arpit'
 df.query("author == 'Arpit'")      #Chọn row có giá trị author ='Arpit'
