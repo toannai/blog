@@ -82,6 +82,43 @@ df1 = df.loc['r1':'r5':2]       # Chọn các row nằm trong khoảng index lab
 
 ![read label]( {{site.url}}/assets/img/2023/12/22/03_pandas_label.png){:width="900px"}
 
-### Lẩy ra row dựa trên điều kiện nhất định
+### Lấy ra row dựa trên điều kiện nhất định
 
+Lọc ra các row có dựa trên một số điều kiện nhất định
 
++ Chọn Rows dựa trên giá trị của một cột
+```
+df[df["Courses"] == 'Spark']        #Chọn row có giá trị 
+df.loc[df['Courses'] == value]      #Chọn row có giá trị 
+df.query("Courses == 'Spark'")      #Chọn row có giá trị 
+df.loc[df['Courses'] != 'Spark']    #Chọn row có giá trị 
+df.loc[df['Courses'].isin(values)]  #Chọn row có giá trị 
+df.loc[~df['Courses'].isin(values)] #Chọn row có giá trị 
+```
+
++ Select Multiple Conditions using Multiple Columns
+
+```
+df.loc[(df['Discount'] >= 1000) & (df['Discount'] <= 2000)]
+df.loc[(df['Discount'] >= 1200) & (df['Fee'] >= 23000 )]
+```
+
++ Using lambda function
+
+```
+df.apply(lambda row: row[df['Courses'].isin(['Spark','PySpark'])])
+```
+
++ Select columns that have no None & nana values
+
+```
+df.dropna()
+```
+
++ Other examples
+
+```
+df[df['Courses'].str.contains("Spark")]
+df[df['Courses'].str.lower().str.contains("spark")]
+df[df['Courses'].str.startswith("P")]
+```
