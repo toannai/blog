@@ -84,41 +84,37 @@ df1 = df.loc['r1':'r5':2]       # Chọn các row nằm trong khoảng index lab
 
 ### Lấy ra row dựa trên điều kiện nhất định
 
-Lọc ra các row có dựa trên một số điều kiện nhất định
+Nhiều khi ta cần lấy ra các row có dựa trên một số điều kiện nhất định
 
 + Chọn Rows dựa trên giá trị của một cột
 ```
-df[df["Courses"] == 'Spark']        #Chọn row có giá trị 
-df.loc[df['Courses'] == value]      #Chọn row có giá trị 
-df.query("Courses == 'Spark'")      #Chọn row có giá trị 
-df.loc[df['Courses'] != 'Spark']    #Chọn row có giá trị 
-df.loc[df['Courses'].isin(values)]  #Chọn row có giá trị 
-df.loc[~df['Courses'].isin(values)] #Chọn row có giá trị 
+df[df["author"] == 'Arpit']        #Chọn row có giá trị author ='Arpit'
+df.query("author == 'Arpit'")      #Chọn row có giá trị author ='Arpit'
+df.loc[df['author'] == 'Arpit']    #Chọn row có giá trị author ='Arpit'
+df.loc[df['author'] != 'Arpit']    #Chọn row có giá trị author != 'Arpit'
+
+values = ['Arpit','Purnima']
+df.loc[df['author'].isin(values)]  #Chọn row có giá trị nằm trong một list
+df.loc[~df['author'].isin(values)] #Chọn row có giá trị nằm không nằm trong một list
 ```
 
-+ Select Multiple Conditions using Multiple Columns
++ Chọn Rows dựa trên điều kiện của nhiều cột
 
 ```
 df.loc[(df['Discount'] >= 1000) & (df['Discount'] <= 2000)]
 df.loc[(df['Discount'] >= 1200) & (df['Fee'] >= 23000 )]
 ```
 
-+ Using lambda function
-
-```
-df.apply(lambda row: row[df['Courses'].isin(['Spark','PySpark'])])
-```
-
 + Select columns that have no None & nana values
 
 ```
-df.dropna()
+df1 = df.dropna()
 ```
 
-+ Other examples
++ Một số phương pháp chọn khác kết hợp nhiều method khác nhau
 
 ```
-df[df['Courses'].str.contains("Spark")]
-df[df['Courses'].str.lower().str.contains("spark")]
-df[df['Courses'].str.startswith("P")]
+df[df['Courses'].str.contains("Spark")]             #Chọn row sử dụng contain
+df[df['Courses'].str.lower().str.contains("spark")] #Chọn row kết hợp nhiều method
+df[df['Courses'].str.startswith("P")]               #Chọn row bắt đầu bằng P
 ```
