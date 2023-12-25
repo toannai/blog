@@ -119,3 +119,6 @@ df[df['Courses'].str.contains("Spark")]             #Chọn row sử dụng cont
 df[df['Courses'].str.lower().str.contains("spark")] #Chọn row kết hợp nhiều method
 df[df['Courses'].str.startswith("P")]               #Chọn row bắt đầu bằng P
 ```
+
+## Thao tác với Cột/Column hay chính là thao tác với Series
+
