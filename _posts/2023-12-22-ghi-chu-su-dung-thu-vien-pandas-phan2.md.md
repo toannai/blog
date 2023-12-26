@@ -50,7 +50,7 @@ Có thể sử dụng attribute `iloc[]` nếu lấy ra row theo Index hoặc d�
 df.iloc[start:stop:step] 
 ```
 
-Với start: index của dòng đầu cần lấy; stop: index của dòng cuối cần lấy; step: Khoảng cách/bước nhảy giữa các index cần lấy (default là 1). Chú ý đây là index luôn bắt đầu từ 0 nghĩa là index=1 sẽ là phần tử thứ 2, index=2 là phần tử thứ 3, ...
+Với **start**: index của dòng đầu cần lấy; **stop**: index của dòng cuối cần lấy; **step**: Khoảng cách/bước nhảy giữa các index cần lấy (default là 1). Chú ý đây là index luôn bắt đầu từ 0 nghĩa là index=1 sẽ là phần tử thứ 2, index=2 là phần tử thứ 3, ...
 
 Ví dụ:
 ```
@@ -69,6 +69,8 @@ df1 = df.iloc[::2]      # Chọn các row theo bước nhảy là 2 từ 1 row �
 ```
 df.loc[start:stop:step] #Lay ra phan tu dua tren i
 ```
+Với ý nghĩa của start; stop; step tương tự trên chỉ khác cái ở đây là label
+
 Ví dụ:
 
 ```
@@ -102,8 +104,7 @@ df.loc[~df['author'].isin(values)] #Chọn row có giá trị nằm không nằm
 + Chọn Rows dựa trên điều kiện của nhiều cột
 
 ```
-df.loc[(df['Discount'] >= 1000) & (df['Discount'] <= 2000)]
-df.loc[(df['Discount'] >= 1200) & (df['Fee'] >= 23000 )]
+df1=df.loc[(df['article'] >= 114) & (df['article'] <= 178)]
 ```
 
 + Select columns that have no None & nana values
@@ -115,10 +116,49 @@ df1 = df.dropna()
 + Một số phương pháp chọn khác kết hợp nhiều method khác nhau
 
 ```
-df[df['Courses'].str.contains("Spark")]             #Chọn row sử dụng contain
-df[df['Courses'].str.lower().str.contains("spark")] #Chọn row kết hợp nhiều method
-df[df['Courses'].str.startswith("P")]               #Chọn row bắt đầu bằng P
+df1=df[df['author'].str.contains("Arp")]             #Chọn row sử dụng contain
+df1=df[df['author'].str.lower().str.contains("Arp")] #Chọn row kết hợp nhiều method
+df1=df[df['author'].str.startswith("A")]               #Chọn row bắt đầu bằng P
 ```
 
 ## Thao tác với Cột/Column hay chính là thao tác với Series
+
++ Chọn ra column
+
+Sử dụng slice
+
+```
+selected_column = ["article"] #Danh sách các cột được chọn
+df1 = df[selected_column] 
+```
+Một cách khác sử dụng loc và iloc
+
+Việc sử dụng loc và iloc tương tự như trường hợp chọn ra row, Chỉ đảo chút ở vị trí tham số
+
+```
+df1 = df.loc[:,start:stop:step]  #Nếu dùng loc lọc theo label
+df1 = df.iloc[:,start:stop:step] #Nếu dùng iloc lọc theo chỉ số
+```
+Trong đó **start**: index/label bắt đầu lấy; **stop**: index/label kết thúc lấy; **step**: Bước nhảy của giá trị được lấy
+
+Một vài ví dụ với log và iloc
+
+```
+#Sử dụng loc ~ Sử dụng label
+df1 = df.loc[:, ["article"]]        #Chọn một vài cột
+df1 = df.loc[:,'author':'article']  # Chọn các cột giữa 2 cột
+df1 = df.loc[:,'author':]           #Chọn toàn bộ cột bên phải author (bao gồm author)
+df1 = df.loc[:,:'author']           #Chọn toàn bộ cột bên trái author
+df1 = df.loc[:,::2]                 #Chọn toàn bộ các cột với bước nhảy index là 2 (Index bắt đầu từ 0)
+
+#Sử dụng iloc ~ Sử dụng chỉ sổ
+df1 = df.iloc[:,[1,3,4]]    #Chọn cột chỉ số là 1
+df1 = df.iloc[:,0:1]        #Chọn cột khoảng từ 0 đến <1
+df1 = df.iloc[:,2:]         #Chọn từ 1 -> hết
+df1 = df.iloc[:,:2]         #Chọn 2 cột đầu
+```
+
+
+## Xử lý dữ liệu từng dòng với phương thức apply()
+
 
