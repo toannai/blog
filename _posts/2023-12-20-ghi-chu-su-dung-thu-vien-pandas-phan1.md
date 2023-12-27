@@ -45,6 +45,7 @@ print(sr)
 print(sr['day1']) # In ra phan tu co Label la day1
 ```
 **Hãy nhớ Index và Label cùng để xác định một phần tử của Series cơ mà nó căn bản là khác nhau nha. Index nó dạng số tự sinh ra bởi pandas còn Label nó là text do người dùng gán**
+
 #### Bây giờ tạo thử DataFrame
 
 Vừa nói **Tập các Series ghép lại thành DataFrame** ta thử tạo DataFrame từ Series xem thực hiện thế nào?

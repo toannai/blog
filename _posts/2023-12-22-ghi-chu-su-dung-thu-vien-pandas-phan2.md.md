@@ -161,4 +161,43 @@ df1 = df.iloc[:,:2]         #Chọn 2 cột đầu
 
 ## Xử lý dữ liệu từng dòng với phương thức apply()
 
+Đối với mình apply() mà một trong những phương thức hay sử dụng nhất vì kiểu gì không ít thì nhiều mình cũng phải thao tác lên dữ liệu. Điểm hay ho là apply() hỗ trợ cả thao tác lên dữ liệu theo dòng hoặc cột chỉ cần dựa trên việc thay đổi tham số axist
+
++ Apply cho Dòng/axist ⇒ Đối số axis = 1
+
+```
+def testFunct(row):
+    print("==Dang xu ly du lieu dong: ")
+    print(row)
+    row['article'] = row['article'] + 10 #Sua doi du lieu truc tiep vao row 
+    return row #Tra lai row sau khi xu ly
+
+## Lay ra user khong login trong 3 thang gan nhat
+df_result = df.apply(testFunct, axis=1)
+```
+
+Chạy thử
+
+![loop row]( {{site.url}}/assets/img/2023/12/22/04_pandas_loop_row.png){:width="900px"}
+
+
++ Apply cho cột/Series ⇒ Đối số axis = 0
+
+```
+def testFunct(coln):
+    print("==Dang xu ly du lieu cot: ")
+    print(coln.name) #Truy cap in ra ten cot. Muon biet Colum/Series có attribute nao thi xin moi ae google
+    return coln
+
+## Lay ra user khong login trong 3 thang gan nhat
+df_result = df.apply(testFunct, axis=0)
+```
+
+Chạy thử
+
+![loop Column]( {{site.url}}/assets/img/2023/12/22/04_pandas_loop_column.png){:width="900px"}
+
+**Note:** Chú ý chút chỗ truy cập row element và column element có chút khác nhau. Một bên truy cập như list một bên lại truy cập attribute (Cái này cũng dễ hiểu thôi một bên là list một bên là Object)
+
+## Một số phép toán thú vị với việc join, concat dữ liệu trong 2 DataFrame
 
