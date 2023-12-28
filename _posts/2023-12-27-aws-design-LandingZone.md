@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AWS&Me-Q&A, C1 - Hành trình tới với Public Cloud (Đặc biệt là aws) của tôi,"
+title: "Cloud&Me-Q&A, Part2 - Dựng hạ tầng cho Org trên AWS và những tâm tư,"
 author: "remi"
 categories: job
 tags: ['AWS', 'Cloud']
