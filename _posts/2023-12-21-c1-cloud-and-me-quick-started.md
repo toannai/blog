@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Cloud&Me-Q&A, Part1 - Hành trình tới với Public Cloud của tôi,"
+title: "Cloud&Me-Q&A, Phần 1 - Hành trình tới với Public Cloud của tôi,"
 author: "remi"
 categories: job
 tags: ['Cloud']
