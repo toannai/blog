@@ -31,7 +31,7 @@ Chuyến đi Nha Trang với gia đình cũng là lần đầu đi chơi xa củ
 
 ![aws]( {{site.url}}/assets/img/2023/12/31/aws_cert.jpg){:width="900px"}
 
-Tham gia khóa học của CBJS cùng ae. Hồi đi học thì cứ lười chứ đi làm lại muốn đi học mãi thôi
+Tham gia khóa học của CBJS cùng ae. Hồi đi học thì cứ lười chứ đi làm lại muốn đi học mãi thôi. Năm nay ũng học được kha khá nhiều cái ấy chứ!
 
 ![cbjs]( {{site.url}}/assets/img/2023/12/31/cbjs.jpg){:width="600px"}
 
