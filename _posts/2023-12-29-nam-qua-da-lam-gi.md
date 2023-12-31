@@ -9,6 +9,8 @@ image: assets/img/2023/12/31/intro.jpg
 
 Trend 9x hồi mới chơi facebook là hay có trò "Năm qua đã làm gì" Gen Z,G giờ thì hác xài tiktok, ytb với short videos. Nhưng không sao người cũ xài những cái cũ. Làm cái post flex các kiểu theo phong cách Infographic truy vết những năm covid.
 
+>PM: Che ảnh vì bài post lên blog cá nhân có cả người ngoài đọc nên không tiện cho lắm và cũng chưa xin phép nên không dám để full ảnh mọi người,
+
 Đầu năm mở màn bằng chuyến du xuân Uông Bí. Đúng là đầu năm đi chơi cả năm đi chơi
 
 ![du xuan]( {{site.url}}/assets/img/2023/12/31/duxuan.jpg){:width="600px"}
