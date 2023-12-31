@@ -17,7 +17,18 @@ Cá nhân làm cái gì cũng không muốn chỉ dựa vào "Cảm tính" cố 
 
 ![sigle or multi]( {{site.url}}/assets/img/2023/12/27/05_sigle_multi.png){:width="900px"}
 
-Dựa trên bảng trên ban đầu ý của mình là lựa chọn Sigle Account tuy nhiên theo ý của người em có k/n làm AWS thì nhất quyết lựa chọn Multi - Account (Thế là combat với nhau). 
+Dựa trên bảng trên ban đầu ý của mình là lựa chọn Sigle Account tuy nhiên một số ae lại nhất quyết lựa chọn Multi - Account. Thế là trong nội bộ cũng có combat với nhau :'(. Cá nhân thì mình là người khá lành cũng không muốn combat với AE nên sau đó đã theo a/e chọn Multi - Account. Cơ mà sau khi xài mới thấy thực sự Multi - Account mang lại các lợi ích đáng kể.
+
+
+Kinh nghiệm rút ra:
+
+- Tìm hiểu rõ cấu trúc tổ chức làm đầu vào cho bài toán lựa chọn Sigle hay Multi Account và Multi thế nào
+- Chọn multi account cho tôi nếu như tổ chức chỉ gồm một vài con VM hay cụm EKS
+- Cuộc sống là sự ánh đổi lợi cái này thì được cái kia (Củng cố) không có cái gì hoàn hảo cả nha
+
+## Chuyện lựa chọn số lượng Account và cách tổ chức cây Account (Hierarchy Structure)
+
+
 
 
 
