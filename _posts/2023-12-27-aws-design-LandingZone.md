@@ -1,11 +1,15 @@
 ---
 layout: post
-title: "Cloud&Me-Q&A, Part2 - Dựng hạ tầng cho Org trên AWS và những tâm tư,"
+title: "Cloud&Me-Q&A, Phần 2 - Dựng hạ tầng cho Org trên AWS và những tâm tư,"
 author: "remi"
 categories: job
 tags: ['AWS', 'Cloud']
 image: assets/img/2023/12/27/00_intro_landingzone.png
 ---
+
+Ý tưởng thì khá rõ ràng & nội dung cũng có nhưng khi bắt tay vào tổ chức và viết lại thì khó phết - khó để trình bày lại những gì mình nghĩ. Nhưng không sao, tôi sẽ cố gắng, và cũng "rào" trước với người đọc đây là các ý kiến cá nhân ~ không bàn luận chuyện đúng sai (PM: Càng lớn càng nhận ra đúng / sai nó cứ là mong manh :d). Như tiêu đề bài viết, nay tôi sẽ tập trung ghi lại những Q&A của tôi trong thời gian đã va vào AWS. 
+
+## Chuyện chọn Single hay Multi-Account?
 
 Khi làm việc với AWS đặc biệt khi thiết kế cho Cloud Infras trên AWS ta hay gặp nhắc tới cái gọi là Landingzone. Theo aws thì họ định nghĩa 
 >A landing zone is a well-architected, multi-account AWS environment that is scalable and secure. This is a starting point from which your organization can quickly launch and deploy workloads and applications with confidence in your security and infrastructure environment. Building a landing zone involves technical and business decisions to be made across account structure, networking, security, and access management in accordance with your organization’s growth and business goals for the future.
