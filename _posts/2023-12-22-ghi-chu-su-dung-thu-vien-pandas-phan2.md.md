@@ -199,5 +199,3 @@ Chạy thử
 
 **Note:** Chú ý chút chỗ truy cập row element và column element có chút khác nhau. Một bên truy cập như list một bên lại truy cập attribute (Cái này cũng dễ hiểu thôi một bên là list một bên là Object)
 
-## Một số phép toán thú vị với việc join, concat dữ liệu trong 2 DataFrame
-

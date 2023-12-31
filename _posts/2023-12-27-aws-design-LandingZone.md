@@ -7,21 +7,17 @@ tags: ['AWS', 'Cloud']
 image: assets/img/2023/12/27/00_intro_landingzone.png
 ---
 
-Ý tưởng thì khá rõ ràng & nội dung cũng có nhưng khi bắt tay vào tổ chức và viết lại thì khó phết - khó để trình bày lại những gì mình nghĩ. Nhưng không sao, tôi sẽ cố gắng, và cũng "rào" trước với người đọc đây là các ý kiến cá nhân ~ không bàn luận chuyện đúng sai (PM: Càng lớn càng nhận ra đúng / sai nó cứ là mong manh :d). Như tiêu đề bài viết, nay tôi sẽ tập trung ghi lại những Q&A của tôi trong thời gian đã va vào AWS. 
+Ý tưởng thì khá rõ ràng & nội dung cũng có thể nói là có nhưng khi bắt tay vào viết lại thì khó phết - khó để tổ chức nó lại một cách logic & trình bày lại những gì mình nghĩ cho người khác hiểu. Nhưng không sao, tôi sẽ cố gắng, và cũng xin "rào" trước với người đọc đây là các ý kiến cá nhân ~ không bàn luận chuyện đúng sai (PM: Càng lớn càng nhận ra đúng / sai nó cứ là mong manh :d). Như tiêu đề bài viết, nay tôi sẽ tập trung ghi lại những Q&A của tôi trong thời gian đã va vào AWS. 
 
-## Chuyện chọn Single hay Multi-Account?
+## Chuyện chọn Single/Flat hay Multi-Account/Hierarchy Structure?
 
-Khi làm việc với AWS đặc biệt khi thiết kế cho Cloud Infras trên AWS ta hay gặp nhắc tới cái gọi là Landingzone. Theo aws thì họ định nghĩa 
->A landing zone is a well-architected, multi-account AWS environment that is scalable and secure. This is a starting point from which your organization can quickly launch and deploy workloads and applications with confidence in your security and infrastructure environment. Building a landing zone involves technical and business decisions to be made across account structure, networking, security, and access management in accordance with your organization’s growth and business goals for the future.
+Xây dựng mới hoặc chuyển hạ tầng lên Cloud thì vấn đề đầu tiên cần giải quyết là phải cân nhắc là lựa chọn chạy trên Single Account hay Multi-Account. Với một tổ chức lớn với dịch vụ phức tạp và không phải lo lắng chuyện tiền nong thì khỏi phải suy nghĩ nhiều cứ Multi-Account mà giã thôi. Nhưng với một công ty nhỏ (dạng một startup) khi mà nghiệp vụ không quá phức tạp nhiều khi workload không quá nhiều và đặc biệt là ít xèng thì câu chuyện dùng Multi - Account nó cũng là cái phải cân nhắc đấy. Việc AWS cứ hở ra là chạc tiền khiến cho việc chạy Multi-Account phát sinh nhiều loại chi phí đi kèm "Không đâu" như Transit Gateway Attachment (Mỗi VPC hơn tầm 50$ ~ hơn triệu), phí VPC <-> VPC traffic, công sức maintain đống route giữa các Account. Chưa kể với người có kinh nghiệm làm "Onpremse" chắc chắn sẽ muốn cái gì cũng Centralize (Monitor/log/security) làm cho lượng traffic này càng lớn và thật sự tốn kém. 
 
-Từ định nghĩa trên thì Landingzone phải là **well-architected** + **multi-account** nhưng với mình thì mình vẫn thích hiểu nó theo nghĩa chỉ là **well-architected** - Một kiến trúc tố. Tố theo hướng nó phù hợp với người sử dụng và không nhất thiết là multi-account. 
-
-Lúc mới bắt đầu mình cân nhắc rất nhiều với câu hỏi "Nên chọn sigle hay multi-account?" vì ai khi mới bắt đầu làm quen với AWS bít multi account sẽ gặp bài toán kết nối network giữa các Account/VPC khá khoai. Khoai ở chỗ là AWS cứ động đến cái gì là chạc tiền: Ra khỏi VPC là tiền traffic, Routing service (transit gateway) cũng lại là chạc tiền ~ tương đối là tốn kém. Để trả lời cho câu hỏi này cũng tìm kiếm google và thấy mấy ông đưa ra một số tiêu chí cụ thể như sau:
+Cá nhân làm cái gì cũng không muốn chỉ dựa vào "Cảm tính" cố gắng tìm một cái gì đó làm cơ sở. Có tìm thấy aws viết [Tại đây](https://docs.aws.amazon.com/accounts/latest/reference/welcome-multiple-accounts.html). Bài viết khá dài nhưng tóm gọn lại việc lựa chọn Single hay Multi - Account dựa trên bảng sau:
 
 ![sigle or multi]( {{site.url}}/assets/img/2023/12/27/05_sigle_multi.png){:width="900px"}
 
-K/n rút ra: Nghe thì rất hợp lý cơ mà sau thời gian dùng thì thấy trừ khi hạ tầng quá nhỏ chỉ gồm vài con EC2 vài Service còn không cứ Multi Account cho khỏe nha.
-
+Dựa trên bảng trên ban đầu ý của mình là lựa chọn Sigle Account tuy nhiên theo ý của người em có k/n làm AWS thì nhất quyết lựa chọn Multi - Account (Thế là combat với nhau). 
 
 
 
