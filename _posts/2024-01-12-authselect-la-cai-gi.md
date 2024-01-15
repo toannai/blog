@@ -4,7 +4,7 @@ title: "Ghi chú về authselect trên Linux,"
 author: "remi"
 categories: job
 tags: ['Linux']
-image: assets/img/img/2024/01/12/intro.png
+image: assets/img/2024/01/12/intro.png
 ---
 
 Đợt này đang có một số việc trên linux có gặp một toy khá mới gọi là authselect. Search thì thấy vietnam chưa ông nào viết về cái này thôi thì biên tập lại cái note trên notion của mình về authselect post lên đây để google nó index cho trang và cũng hy vọng là nhỡ có ngày có ai cần nó thì sao :) OK mà.
