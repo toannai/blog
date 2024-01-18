@@ -37,3 +37,6 @@ Liệt kê toàn bộ các Profile trên hệ thống:
 
 ```authselect list```
 
+Ủa vậy xem mình đang xài profile nào thì sao? Thì sử dụng ```authselect current```
+
+Chuyển qua chuyển lại giữa các profile sử dụng ```authselect select <profile name>```
