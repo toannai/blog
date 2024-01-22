@@ -171,11 +171,12 @@ WITH ADMIN OPTION;
 ###	Quyền đối tượng Quyền đối tượng (Object Privilege)
 
 Là quyền thực hiện một hành động cụ thể trên một đối tượng cụ thể, dùng để quản lý việc truy xuất đến các đối tượng của schema cụ thể nào đó.User có thể cấp 1 quyền đối tượng nếu có một trong các điều kiện sau:
-	-	User có thể cấp bất kỳ quyền đối tượng trên bất kỳ đối tượng nào thuộc sở hữu của mình cho user khác.
-	-	User có quyền GRANT ANY OBJECT PRIVILEGE.
-	-	User được cấp quyền đối tượng đó với tùy chọn WITH GRANT OPTION.
+
+* User có thể cấp bất kỳ quyền đối tượng trên bất kỳ đối tượng nào thuộc sở hữu của mình cho user khác.
+* User có quyền GRANT ANY OBJECT PRIVILEGE.
+* User được cấp quyền đối tượng đó với tùy chọn WITH GRANT OPTION.
  
-	![object perm]( {{site.url}}/assets/img/2022/07/12/objectperm.png) 
+![object perm]( {{site.url}}/assets/img/2022/07/12/objectperm.png) 
 
 ### Nói về Role
 
