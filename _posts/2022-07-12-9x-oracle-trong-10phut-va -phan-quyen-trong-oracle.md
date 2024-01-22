@@ -61,7 +61,7 @@ Cập nhật: Từ phiên bản 12c. Oracle đưa ra một kiến trúc mới. G
 
 Đối với người dùng, PDB hoàn toàn giống với các database bình thường, từ cách kết nối đến các đối tượng bên trong như user, bảng, view, procedure. Còn xét sâu hơn ở kiến trúc phía dưới, các PDB sống dựa vào CDB. CDB cung cấp các process, memory để giữ cho PDB hoạt động.
 
-Có một PDB đặc biệt được sinh ra khi mới tạo CDB, nó gọi là PDB hạt giống (PDB$SEED). Nó giống như 1 mẫu (hay template) để mỗi khi cần tạo ra một PDB mới, Oracle sẽ sử dụng PDB$SEED này để làm mẫu.
+Có một PDB đặc biệt được sinh ra khi mới tạo CDB, nó gọi là PDB hạt giống `(PDB$SEED)`. Nó giống như 1 mẫu (hay template) để mỗi khi cần tạo ra một PDB mới, Oracle sẽ sử dụng `PDB$SEED` này để làm mẫu.
 
 ![Sed DB]( {{site.url}}/assets/img/2022/07/12/sed_db.png)
 
