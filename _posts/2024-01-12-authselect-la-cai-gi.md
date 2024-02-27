@@ -47,7 +47,7 @@ Có nhiều option nhưng có một số là hay dùng nên nhớ thôi, còn s�
 
 Mặc định trên hệ thống Redhat có định nghĩa sẵn một vài Profile cho ta: Các Profile này là gì thì đi hỏi chatgpt cho nhanh
 
-![03 authselect list gpt]( {{site.url}}/assets/img/2024/01/12/03_authselect_list_chatgpt.png){:width="600px"}
+![03 authselect list gpt]( {{site.url}}/assets/img/2024/01/12/03_authselect_list_chatpgt.png){:width="600px"}
 
 * Kiểm tra xem mình đang xài profile nào thì sao? Thì sử dụng 
 
