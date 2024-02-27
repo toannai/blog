@@ -136,11 +136,11 @@ Thực hiện chi tiết:
 
 Kiểm tra nội dung file ```/etc/authselect/custom/custom-profile/system-auth``` đoạn cấu hình ```nullok``` (Cho phép password null)
 
-![08 before audit]( {{site.url}}/assets/img/2024/01/12/08_before_01){:width="600px"}
+![08 before audit]( {{site.url}}/assets/img/2024/01/12/08_before_01.png){:width="600px"}
 
 Kiểm tra nội dung ```/etc/pam.d/system-auth``` (Cũng là nội dung của /etc/authselect/system-auth do /etc/pam.d/system-auth là softlink của /etc/authselect/system-auth)
 
-![08 before audit 2]( {{site.url}}/assets/img/2024/01/12/08_before_01){:width="600px"}
+![08 before audit 2]( {{site.url}}/assets/img/2024/01/12/08_before_02.png){:width="600px"}
 
 => Ta thấy 2 file ```/etc/authselect/custom/custom-profile/system-auth``` và ```/etc/pam.d/system-auth``` đoạn cấu hình ``nullok`` tương tự nhau => Điều này là dễ hiểu vì từ trên đã nói ```/etc/authselect/custom/custom-profile/system-auth``` là template để sinh ra ```/etc/pam.d/system-auth```
 
@@ -148,11 +148,11 @@ Kiểm tra nội dung ```/etc/pam.d/system-auth``` (Cũng là nội dung của /
 
 Lúc này audit file /etc/authselect/custom/custom-profile/system-auth bỏ cấu hình ```nullok``` <=> cho phép password rỗng
 
-![08 after audit1]( {{site.url}}/assets/img/2024/01/12/08_after_01){:width="600px"}
+![08 after audit1]( {{site.url}}/assets/img/2024/01/12/08_after_01.png){:width="600px"}
 
 **Chưa** chạy ```authselect apply-changes``` và kiểm tra file ```/etc/pam.d/system-auth```
 
-![08 after audit2]( {{site.url}}/assets/img/2024/01/12/08_after_02){:width="600px"}
+![08 after audit2]( {{site.url}}/assets/img/2024/01/12/08_after_02.png){:width="600px"}
 
 ==> File template thay đổi nhưng cấu hình thực tế của PAM chưa thay đổi
 
@@ -164,7 +164,7 @@ Chạy Update cấu hình Profile vào hệ thống:
 
 Kiểm tra lại thì thấy cấu hình của file cấu hình PAM thực sự được Update
 
-![08 after audit2]( {{site.url}}/assets/img/2024/01/12/08_after_02){:width="600px"}
+![08 after audit2]( {{site.url}}/assets/img/2024/01/12/08_after_03.png){:width="600px"}
 
 **Tổng hợp ngắn gọn lại!**: Như vậy để thiết lập cho một Profile ta sẽ sửa trong file template tương ứng của Profile nằm tại ```/etc/authselect/custom/<profile_name>``` rồi chạy apply. Lệnh này sẽ sinh ra file cấu hình của PAM tại ```/etc/authselect```. File này được link vào thưc mục cấu hình của PAM tại ```/etc/pam.d/```
 
