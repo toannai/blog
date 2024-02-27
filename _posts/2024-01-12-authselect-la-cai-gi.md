@@ -126,9 +126,9 @@ Bây giờ sẽ sử dụng authselect để thiết lập cấu hình này. Đ�
 
 * Bước 1: Kiểm tra cấu hình option ```nullok``` trước update 
 
-* Bước 2: Sửa đổi cấu hình nhưng chưa thực hiện chạy ```authselect apply-changes```  => Kiểm tra cấu hình option ```nullok```
+* Bước 2: Sửa đổi cấu hình nhưng chưa thực hiện chạy ```authselect apply-changes```  => Kiểm tra cấu hình option ```nullok``` => Mục tiêu là để kiểm chứng dự đoán khi chưa apply mà mới sửa ở template ở thư mục ```/etc/authselect/custom``` thì cấu hình chưa được áp dụng
 
-* Bước 3: Thực hiện chạy ```authselect apply-changes```  => Kiểm tra cấu hình option ```nullok``` sau update
+* Bước 3: Thực hiện chạy ```authselect apply-changes```  => Kiểm tra cấu hình option ```nullok``` sau update => Mục tiêu là để kiểm chứng dự đoán nếu đã apply thì template ở thư mục ```/etc/authselect/custom``` sẽ được áp dụng
 
 Thực hiện chi tiết:
 
