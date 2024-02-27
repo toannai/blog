@@ -166,6 +166,7 @@ Kiểm tra lại thì thấy cấu hình của file cấu hình PAM thực sự 
 
 ![08 after audit2]( {{site.url}}/assets/img/2024/01/12/08_after_03.png){:width="600px"}
 
-**Tổng hợp ngắn gọn lại!**: Như vậy để thiết lập cho một Profile ta sẽ sửa trong file template tương ứng của Profile nằm tại ```/etc/authselect/custom/<profile_name>``` rồi chạy apply. Lệnh này sẽ sinh ra file cấu hình của PAM tại ```/etc/authselect```. File này được link vào thưc mục cấu hình của PAM tại ```/etc/pam.d/```
+
+*Tổng hợp ngắn gọn lại! : Như vậy để thiết lập cho một Profile ta sẽ sửa trong file template tương ứng của Profile nằm tại ```/etc/authselect/custom/<profile_name>``` rồi chạy apply. Lệnh này sẽ sinh ra file cấu hình của PAM tại ```/etc/authselect```. File này được link vào thưc mục cấu hình của PAM tại ```/etc/pam.d/```. Lúc này cấu hình sẽ được áp dụng vào hệ thống!*
 
 
