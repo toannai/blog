@@ -79,7 +79,7 @@ Tiếp tục chui vào đây
 
 Đọc qua thì không thấy ai tạo Profile từ đầu cả, cách hướng dẫn toàn là tạo Base/Clone từ một cái Profile rồi sửa theo ý mình. OK giờ theo hướng dẫn tạo 1 cái custom-Profile xem sao
 
-### Bước 1: Chạy lệnh sau để tạo một Profile base trên sss
+### Bước 1: Chạy lệnh sau để tạo một Profile base trên sssd (System Security Services Daemon) - Một Profile mặc định trên Redhat
 
 ```#authselect create-profile custom-profile -b sssd --symlink-meta```
 
