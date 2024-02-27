@@ -62,7 +62,7 @@ Như trên hình thì hiện ta đang sử dụng Profile **sssd** với 2 featu
 
 ```authselect select <profile name>```
 
-* Mổ sẻ hơn về cấu trúc file của một *Profile**
+* Mổ sẻ hơn về cấu trúc file của một **Profile**
 
 Ban đầu vào thư mục cấu hình quen thuộc của PAM ```\etc\pam.d\```
 
