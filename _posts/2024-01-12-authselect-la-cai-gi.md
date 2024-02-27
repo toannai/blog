@@ -95,7 +95,8 @@ Hãy chú ý phần bôi màu đỏ, ở đây ta cũng thấy Meta data (Thông
 
 File này có một số phần mở ngoặc dạng ```{include/exclude ...}``` xác định đoạn cấu hình sẽ được load/unload với điều kiện module nào đó được load hay không.
 
-Dĩ nhiên là ở đây muốn sửa ta sẽ sửa thêm các đoạn cấu hình PAM mà ta mong muốn để tạo lập một Profile cho riêng mình. Sau khi sửa theo đúng ý mình ta sẽ đi đến bước 2 là chọn và apply Profile của mình vào hệ thống.
+Dĩ nhiên là ở đây muốn sửa ta sẽ sửa thêm các đoạn cấu hình PAM mà ta mong muốn để tạo lập một Profile cho riêng mình. Sau khi sửa theo đúng ý mình ta sẽ đi đến bước 2 là chọn và apply Profile của mình vào hệ thống. *PM: "Đoạn test sửa tôi sẽ thực hiện ở Bước 3"*.
+
 
 ### Bước 2: Chọn Profile và apply Profile đã cấu hình
 
@@ -110,4 +111,61 @@ Chọn Profile đã định nghĩa
 Apply Profile đã chọn
 
 ```authselect apply-changes```
+
+### Bước 3: Thử sửa một cấu hình trong Profile xem cơ chế hoạt động thế nào
+
+```nullok``` là option cấu hình cho module ```pam_unix.so``` trong PAM được sử dụng để quyết định cho phép password của user được phép rỗng hay không. Nếu có option này thì password được phép rỗng ngược lại password không được phép rỗng. Cấu hình này được thiết lập trong file ```/etc/pam.d/system-auth``` với đoạn cấu hình
+
+```password    sufficient                                   pam_unix.so sha512 shadow  nullok use_authtok```
+
+Qua ChatGPT thấy ý nghĩa các option như sau
+
+![08 giaithich thay doi]( {{site.url}}/assets/img/2024/01/12/08_giaithich.png){:width="600px"}
+
+Bây giờ sẽ sử dụng authselect để thiết lập cấu hình này. Để dễ hiểu tôi mô tả các bước thực hiện như sau: 
+
+* Bước 1: Kiểm tra cấu hình option ```nullok``` trước update 
+
+* Bước 2: Sửa đổi cấu hình nhưng chưa thực hiện chạy ```authselect apply-changes```  => Kiểm tra cấu hình option ```nullok```
+
+* Bước 3: Thực hiện chạy ```authselect apply-changes```  => Kiểm tra cấu hình option ```nullok``` sau update
+
+Thực hiện chi tiết:
+
+* Bước 1: Kiểm tra cấu hình option ```nullok``` trước update  
+
+Kiểm tra nội dung file ```/etc/authselect/custom/custom-profile/system-auth``` đoạn cấu hình ```nullok``` (Cho phép password null)
+
+![08 before audit]( {{site.url}}/assets/img/2024/01/12/08_before_01){:width="600px"}
+
+Kiểm tra nội dung ```/etc/pam.d/system-auth``` (Cũng là nội dung của /etc/authselect/system-auth do /etc/pam.d/system-auth là softlink của /etc/authselect/system-auth)
+
+![08 before audit 2]( {{site.url}}/assets/img/2024/01/12/08_before_01){:width="600px"}
+
+=> Ta thấy 2 file ```/etc/authselect/custom/custom-profile/system-auth``` và ```/etc/pam.d/system-auth``` đoạn cấu hình ``nullok`` tương tự nhau => Điều này là dễ hiểu vì từ trên đã nói ```/etc/authselect/custom/custom-profile/system-auth``` là template để sinh ra ```/etc/pam.d/system-auth```
+
+* Bước 2: Sửa đổi cấu hình nhưng chưa thực hiện chạy ```authselect apply-changes```  => Kiểm tra cấu hình option ```nullok```
+
+Lúc này audit file /etc/authselect/custom/custom-profile/system-auth bỏ cấu hình ```nullok``` <=> cho phép password rỗng
+
+![08 after audit1]( {{site.url}}/assets/img/2024/01/12/08_after_01){:width="600px"}
+
+**Chưa** chạy ```authselect apply-changes``` và kiểm tra file ```/etc/pam.d/system-auth```
+
+![08 after audit2]( {{site.url}}/assets/img/2024/01/12/08_after_02){:width="600px"}
+
+==> File template thay đổi nhưng cấu hình thực tế của PAM chưa thay đổi
+
+* Bước 3: Thực hiện chạy ```authselect apply-changes```  => Kiểm tra cấu hình option ```nullok``` sau update
+
+Chạy Update cấu hình Profile vào hệ thống:
+
+```authselect apply-changes```
+
+Kiểm tra lại thì thấy cấu hình của file cấu hình PAM thực sự được Update
+
+![08 after audit2]( {{site.url}}/assets/img/2024/01/12/08_after_02){:width="600px"}
+
+**Tổng hợp ngắn gọn lại!**: Như vậy để thiết lập cho một Profile ta sẽ sửa trong file template tương ứng của Profile nằm tại ```/etc/authselect/custom/<profile_name>``` rồi chạy apply. Lệnh này sẽ sinh ra file cấu hình của PAM tại ```/etc/authselect```. File này được link vào thưc mục cấu hình của PAM tại ```/etc/pam.d/```
+
 
